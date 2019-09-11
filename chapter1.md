@@ -315,17 +315,162 @@ d.删单回复
 ### 8.期货/期权 资金查询
 
 a.资金查询指令
+```
+{
+  "Request":"MARGINS",
+  "SessionKey":"XXXXXXXXX"
+"AccountMask":"XXXXXXXXX"
+}
+```
+
+<br>
 
 b.资金查询回复
+```
+{
+  "Reply":"MARGINS",
+  "Success":"OK",
+  "Margins":
+    [
+      {"BrokerID":"XXX",
+    	"Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+       "BeginningBalance":"XXX",
+       "Commissions":"XXX",
+       ...},
+      {"BrokerID":"XXX",
+       "Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+       "BeginningBalance":"XXX",
+       "Commissions":"XXX",
+       ...}
+   ]   
+}
+```
+注1:并非所有字段都有数据，要视上手提供多少数据。
+
+<br>
+
 ### 9.期货/期权 部位查询
+
 a.部位查询指令
+```
+{
+  "Request":"POSITIONS",
+  "SessionKey":"XXXXXXXXX",
+	"AccountMask":"XXXXXXXXX",
+	"QryIndex":"n"
+}
+```
+<br>
+
 b.资金查询回复
+```
+{
+  "Reply":"POSITIONS",
+  "Success":"OK",
+  "Positions":
+    [
+      {"BrokerID":"XXX",
+    	"Account":"XXX",
+        "TransactDate":"n",
+                "TransactTime":"n",
+                "Quantity":"n",
+                "SumLongQty":"n",
+                "SumShortQty":"n",
+		"QryIndex":"n",
+       ...},
+      {"BrokerID":"XXX",
+       "Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+                "Quantity":"n",
+                "SumLongQty":"n",
+                "SumShortQty":"n",
+		"QryIndex":"n",
+       ...}
+   ]   
+}
+```
+
+<br>
+
+### 10.PING/PONG
+
+```
+{
+  "Request":"PING",
+  "SessionKey":"XXXXXXXXX"
+}
+回复
+{
+   "Reply":"PONG"
+}
+```
+
+<br>
 
 
 ## 二、Publish-Subscribe
 &emsp;&emsp;**cleint 透过 pub/sub 联机，接收资金账号变动及主推回报**
 
-### 1.SessionKey 失效
-### 2.资金账号主推
-### 3.回报主推
-### 4.DaVinci 讯号
+### 1.资金账号主推
+```
+{
+	"DataType":"ACCOUNTS",
+    "Accounts":
+  [
+    {
+
+      "BrokerID":"123456",
+      "Account":"XXX",
+      "UserName":"XXX",
+             "AccountName":"XXX",
+       ...
+    },
+    {
+
+      "BrokerID":"123456",
+      "Account":"XXX",
+      "UserName":"XXX",
+             "AccountName":"XXX",
+       ...
+    }
+  ]
+}
+```
+
+<br>
+
+### 2.回报主推
+```
+{
+	"DataType":"EXECUTIONREPORT",
+  "Report":
+  {
+    "ReportID":"123456",
+    "Account":"XXX",
+    "BrokerID":"XXX",
+         "Symbol":"XXX",
+         "Side":"n",
+     ...
+  }
+}
+```
+
+<br>
+
+### 3.DaVinci讯号
+```
+{
+	"DataType":"DavinciSignal",
+  "Data":
+  {
+    "Symbol":"XXX",
+    "Account":"XXX",
+     ...
+  }
+}
+```
