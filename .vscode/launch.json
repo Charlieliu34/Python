@@ -8,7 +8,7 @@
             "timeout": 60000,
             "type": "node",
             "request": "launch",
-            "name": "產生gitbook",
+            "name": "create gitbook",
             "runtimeExecutable": "npm",
             "cwd": "${workspaceFolder}",
             "runtimeArgs": [
