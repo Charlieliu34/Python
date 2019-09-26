@@ -1,0 +1,600 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>贰、行情 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter2.html" />
+    
+    
+    <link rel="prev" href="chapter1.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    壹、交易
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    一、Request-Reply
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    二、Publish-Subscribe
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    贰、行情
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    一、Request-Reply
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.2" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    二、Publish-Subscribe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.3" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    三、历史资料取得
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >贰、行情</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x8D30;&#x3001;&#x884C;&#x60C5;">&#x8D30;&#x3001;&#x884C;&#x60C5;</h1>
+<h2 id="&#x4E00;&#x3001;request-reply">&#x4E00;&#x3001;Request-Reply</h2>
+<p>&#x2003;&#x2003;<strong>cleint &#x53D1;&#x9001; Request&#xFF0C;&#x7B49;&#x5F85; Server &#x56DE;&#x590D; Reply&#x3002;client &#x900F;&#x8FC7;&#x6B64;&#x8054;&#x673A;&#x767B;&#x5165;&#x5373;&#x53D1;&#x9001;&#x8BA2;&#x9605;&#x62A5;&#x4EF7;&#x6307;&#x4EE4;&#x3002;</strong></p>
+<h3 id="1&#x8D26;&#x53F7;&#x767B;&#x5165;">1.&#x8D26;&#x53F7;&#x767B;&#x5165;</h3>
+<p>a.&#x767B;&#x5165;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;LOGIN&quot;,
+  &quot;Param&quot;:
+  {
+    &quot;SystemName&quot;:&quot;xxxxx&quot;,
+    &quot;ServiceKey&quot;:&quot;xxxxx&quot;
+  }
+}
+</code></pre><p><br></p>
+<p>b.&#x767B;&#x5165;&#x56DE;&#x590D;</p>
+<ul>
+<li>&#x767B;&#x5165;&#x9A8C;&#x8BC1;&#x6210;&#x529F; <pre><code>{
+  &quot;Reply&quot;:&quot;LOGIN&quot;,
+&quot;Success&quot;:&quot;OK&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
+&quot;SubPort&quot;:n
+}
+</code></pre>&#x6CE8;1:SessionKey&#xFF0C;&#x4E4B;&#x540E;&#x6240;&#x6709;Request&#x6307;&#x4EE4;&#x4E00;&#x5F8B;&#x9700;&#x8981;&#x5E26;SessionKey&#x3002;SessionKey&#x9519;&#x8BEF;&#xFF0C;&#x6307;&#x4EE4;&#x90E8;&#x6267;&#x884C;&#x3002;</li>
+</ul>
+<p>&#x6CE8;2:SubPort&#x63D0;&#x4F9B;client&#x7528;&#x6765;&#x5EFA;&#x7ACB;&#x7B2C;&#x4E8C;&#x6761;ZeroMQ Pub/Sub&#x8054;&#x673A;&#xFF0C;&#x7528;&#x6765;&#x63A5;&#x6536;&#x4E3B;&#x63A8;&#x884C;&#x60C5;&#x3002;</p>
+<hr>
+<ul>
+<li>&#x767B;&#x5165;&#x9A8C;&#x8BC1;&#x5931;&#x8D25;<pre><code>{
+  &quot;Reply&quot;:&quot;LOGIN&quot;,
+&quot;Success&quot;:&quot;Fail&quot;,
+  &quot;SessionKey&quot;:&quot;&quot;
+}
+</code></pre></li>
+</ul>
+<p><br></p>
+<p>c.&#x6CE8;&#x9500;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;LOGOUT&quot;,
+}
+</code></pre><p><br></p>
+<h3 id="2&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;">2.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;</h3>
+<p>a.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;QUERYALLINSTRUMENT&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
+  &quot;Type&quot;:&quot;Future&quot;
+}
+</code></pre><p> <strong>Type:Future or Options or Stock</strong></p>
+<p> <br>
+b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
+<pre><code>{
+    &quot;Reply&quot;:&quot;QUERYALLINSTRUMENT&quot;,
+  &quot;Success&quot;:&quot;OK&quot;,
+  &quot;Instruments&quot;:
+  {&quot;CHS&quot; : &quot;&#x671F;&#x8D27;&quot;, 
+   &quot;CHT&quot; : &quot;&#x671F;&#x8D27;&quot;, 
+   &quot;ENG&quot; : &quot;ALGOSTARS_EXG&quot;, 
+   &quot;EXGID&quot; : &quot;&quot;, 
+   &quot;Node&quot; : 
+   [
+      {&quot;CHS&quot; : &quot;&#x4E2D;&#x56FD;&#x91D1;&#x878D;&#x4EA4;&#x6613;&#x6240;&quot;, 
+       &quot;CHT&quot; : &quot;&#x4E2D;&#x56FD;&#x91D1;&#x878D;&#x4EA4;&#x6613;&#x6240;&quot;, 
+       &quot;ENG&quot; : &quot;CFFEX&quot;, 
+       &quot;EXGID&quot; : null, 
+       &quot;Node&quot; : 
+         [
+             {&quot;CHS&quot; : &quot;&#x70ED;&#x95E8;&#x6708;&quot;, 
+              &quot;CHT&quot; : &quot;&#x70ED;&#x95E8;&#x6708;&quot;, 
+              &quot;ENG&quot; : &quot;HOT&quot;,
+              &quot;Contracts&quot; : 
+              [&quot;TC.F.CFFEX.IF.201906&quot;, 
+               &quot;TC.F.CFFEX.IH.201906&quot;, 
+               &quot;TC.F.CFFEX.IC.201906&quot;, 
+               &quot;TC.F.CFFEX.TF.201906&quot;, 
+               &quot;TC.F.CFFEX.T.201909&quot;], 
+              &quot;ExpirationDate&quot; : 
+              [&quot;20190621&quot;, 
+               &quot;20190621&quot;, 
+               &quot;20190621&quot;, 
+               &quot;20190614&quot;, 
+               &quot;20190916&quot;], 
+              &quot;InstrumentID&quot; : 
+              [&quot;IF1906&quot;, 
+               &quot;IH1906&quot;, 
+               &quot;IC1906&quot;,&#x2026;]
+             &#x2026;}
+         &#x2026;]
+      &#x2026;}
+   &#x2026;]
+  &#x2026;}
+}
+</code></pre><p><br></p>
+<h3 id="3&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;">3.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;</h3>
+<p>a.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;QUERYINSTRUMENTINFO&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
+  &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;
+}
+</code></pre><p><br></p>
+<p>b.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x56DE;&#x590D;</p>
+<pre><code>{
+    &quot;Reply&quot;:&quot;QUERYINSTRUMENTINFO&quot;,
+  &quot;Success&quot;:&quot;OK&quot;,
+  &quot;Info&quot;:
+{
+&quot;TC.F.CFFEX.IF&quot;:{&quot;Currency&quot;:&quot;CNY&quot;,&quot;Denominator&quot;:&quot;1&quot;,&quot;EXG&quot;:&quot;CFFEX&quot;,&quot;EXG.CTP&quot;:&quot;CFFEX&quot;,&quot;EXG.SIM&quot;:&quot;CFFEX&quot;,&quot;Group.CHS&quot;:&quot;&#x6307;&#x6570;&quot;,&quot;Group.CHT&quot;:&quot;&#x6307;&#x6570;&quot;,&quot;Group.ENG&quot;:&quot;Equities&quot;,&quot;I3_TickSize&quot;:&quot;0.2&quot;,&quot;Multiplier.ESNH&quot;:&quot;1&quot;,&quot;Multiplier.ESXYA&quot;:&quot;1&quot;,&quot;Multiplier.GQ2&quot;:&quot;1&quot;,&quot;Name.CHS&quot;:&quot;&#x6CAA;&#x6DF1;300&quot;,&quot;Name.CHT&quot;:&quot;&#x6CAA;&#x6DF1;300&quot;,&quot;Name.ENG&quot;:&quot;CSI 300&quot;,&quot;pinyin&quot;:&quot;hs300&quot;,&quot;OpenCloseTime&quot;:&quot;09:30~11:30;13:00~15:00&quot;,&quot;Symbol&quot;:&quot;IF&quot;,&quot;Symbol.CTP&quot;:&quot;IF&quot;...}
+  }
+}
+</code></pre><p><br></p>
+<h3 id="4&#x8BA2;&#x9605;&#x62A5;&#x4EF7;">4.&#x8BA2;&#x9605;&#x62A5;&#x4EF7;</h3>
+<p>a.&#x8BA2;&#x9605;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;SUBQUOTE&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
+&quot;Param&quot;:
+  {
+    &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;,
+    &quot;SubDataType&quot;:&quot;REALTIME&quot;,
+     ...
+  }
+}
+</code></pre><p><br></p>
+<p>b.&#x8BA2;&#x9605;&#x56DE;&#x590D;</p>
+<pre><code>{
+    &quot;Reply&quot;:&quot;SUBQUOTE&quot;,
+  &quot;Success&quot;:&quot;OK&quot;
+}
+</code></pre><p><br></p>
+<p>c.&#x89E3;&#x9664;&#x8BA2;&#x9605;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;UNSUBQUOTE&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
+&quot;Param&quot;:
+  {
+    &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;,
+    &quot;SubDataType&quot;:&quot;REALTIME&quot;,
+     ...
+  }
+}
+</code></pre><p>&#x6CE8;1:&#x62A5;&#x4EF7;&#x8BA2;&#x9605;&#x6210;&#x529F;&#xFF0C;&#x4F1A;&#x5728;Pub/Sub&#x8054;&#x673A;&#x6536;&#x5230;&#x884C;&#x60C5;&#x3002;</p>
+<p><br></p>
+<h3 id="5pingpong">5.PING/PONG</h3>
+<pre><code>{
+  &quot;Request&quot;:&quot;PING&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
+}
+&#x56DE;&#x590D;
+{
+   &quot;Reply&quot;:&quot;PONG&quot;
+}
+</code></pre><p><br></p>
+<h2 id="&#x4E8C;&#x3001;publish-subscribe">&#x4E8C;&#x3001;Publish-Subscribe</h2>
+<p>&#x2003;&#x2003;<strong>cleint &#x900F;&#x8FC7; pub/sub &#x8054;&#x673A;&#xFF0C;&#x63A5;&#x6536;&#x4E3B;&#x63A8;&#x884C;&#x60C5;</strong></p>
+<h3 id="1&#x5B9E;&#x65F6;&#x884C;&#x60C5;">1.&#x5B9E;&#x65F6;&#x884C;&#x60C5;</h3>
+<pre><code>TC.F.CFFRX.IF.201903:{
+    &quot;DataType&quot;:&quot;REALTIME&quot;,
+  &quot;Quote&quot;:
+  {
+     &quot;Symbol&quot;:&quot;TC.F.CFFRX.IF.201903&quot;,
+     &quot;TradingPrice&quot;:&quot;3886.5&quot;,
+     &quot;TradeQuantity&quot;:&quot;35435&quot;,
+     ...
+  }
+}
+</code></pre><p><br></p>
+<h3 id="2greeks">2.Greeks</h3>
+<pre><code>TC.F.CFFRX.IF.201903:{
+    &quot;DataType&quot;:&quot;GREEKS&quot;,
+  &quot;Quote&quot;:
+  {
+     &quot;Symbol&quot;:&quot;TC.F.CFFRX.IF.201903&quot;,
+     &quot;TradingPrice&quot;:&quot;3886.5&quot;,
+     &quot;TradeQuantity&quot;:&quot;35435&quot;,
+     ...
+  }
+}
+</code></pre><p><br></p>
+<h3 id="3davinci-&#x8BAF;&#x53F7;">3.DaVinci &#x8BAF;&#x53F7;</h3>
+<pre><code>{
+    &quot;DataType&quot;:&quot;DavinciSignal&quot;,
+  &quot;Data&quot;:
+  {
+    &quot;Symbol&quot;:&quot;XXX&quot;,
+    &quot;Account&quot;:&quot;XXX&quot;,
+     ...
+  }
+}
+</code></pre><p><br></p>
+<h2 id="&#x4E09;&#x3001;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x53D6;&#x5F97;">&#x4E09;&#x3001;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x53D6;&#x5F97;</h2>
+<p>&#x2003;&#x2003;<strong>&#x4F7F;&#x7528; REQ/REP &#x8054;&#x673A;&#xFF0C;&#x56DE;&#x8865;&#x5386;&#x53F2;&#x6570;&#x636E;</strong></p>
+<h3 id="1&#x5386;&#x53F2;&#x8D44;&#x6599;">1.&#x5386;&#x53F2;&#x8D44;&#x6599;</h3>
+<p>a.&#x56DE;&#x8865;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;SUBQUOTE&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
+&quot;Param&quot;:
+  {
+    &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;,
+    &quot;SubDataType&quot;:&quot;1K&quot;,
+     ...
+  }
+}
+</code></pre><p>&#x6CE8;1:SubDataType&#x4F7F;&#x7528;TICKS or 1Kor DK&#xFF0C;&#x4E14;&#x586B;&#x5199;StartTime&#x3001;EndTime&#xFF0C;&#x56DE;&#x8865;&#x5386;&#x53F2;&#x6570;&#x636E;&#x3002;</p>
+<p><br></p>
+<p>b.&#x56DE;&#x8865;&#x6307;&#x4EE4;&#x56DE;&#x590D;</p>
+<pre><code>{
+    &quot;Reply&quot;:&quot;SUBQUOTE&quot;,
+  &quot;Success&quot;:&quot;OK&quot;
+}
+</code></pre><p>&#x4E8E;PUB/SUB&#x8054;&#x673A;&#xFF0C;&#x6536;&#x5230;&#x6570;&#x636E;&#x51C6;&#x5907;&#x5B8C;&#x6210;&#x901A;&#x77E5;&#x3002;</p>
+<p><br></p>
+<p>C.&#x8BA2;&#x9605;&#x56DE;&#x590D;</p>
+<pre><code>TC.F.CFFRX.IF.201903:{
+    &quot;DataType&quot;:&quot;1K&quot;,
+  &quot;StartTime&quot;:&quot;YYMMDDHH&quot;,
+  &quot;EndTime&quot;:&quot;YYMMDDHH&quot;,
+  &quot;Symbol&quot;:&quot;TC.F.CFFRX.IF.201903&quot;,
+  &quot;Status&quot;:&quot;Ready&quot;
+}
+</code></pre><p>&#x6536;&#x62A5;&#x6570;&#x636E;&#x51C6;&#x5907;&#x5B8C;&#x6210;&#x901A;&#x4E4B;&#x540E;&#xFF0C;&#x900F;&#x8FC7;REQ/REP&#x8054;&#x673A;&#x53D6;&#x5F97;&#x6570;&#x636E;</p>
+<p><br></p>
+<p>d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6307;&#x4EE4;</p>
+<pre><code>{
+  &quot;Request&quot;:&quot;GETHISDATA&quot;,
+  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
+&quot;Param&quot;:
+  {
+    &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;,
+    &quot;SubDataType&quot;:&quot;n&quot;,
+     &quot;QryIndex&quot;:&quot;&quot;,
+     ...
+  }
+}
+</code></pre><p>&#x6CE8;1:SubDataType&#x3001;StartTime&#x3001;EndTime&#xFF0C;&#x9700;&#x4E0E;&#x56DE;&#x8865;&#x6570;&#x636E;&#x6307;&#x4EE4;&#x76F8;&#x540C;&#x3002;</p>
+<p><br></p>
+<p>d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6307;&#x4EE4;</p>
+<pre><code>TC.F.CFFRX.IF.201903:{
+    &quot;DataType&quot;:&quot;1K&quot;,
+  &quot;HisData&quot;:
+  [
+     {
+       &quot;Date&quot;:&quot;YYYYMMDD&quot;,
+       &quot;Time&quot;:&quot;HHMMSS&quot;,
+       &quot;Open&quot;:&quot;3882&quot;,
+       &quot;High&quot;:&quot;3886.5&quot;,
+       &quot;QryIndex&quot;:&quot;&quot;
+       ...
+     },
+     {
+       &quot;Date&quot;:&quot;YYYYMMDD&quot;,
+       &quot;Time&quot;:&quot;HHMMSS&quot;,
+       &quot;Open&quot;:&quot;3882&quot;,
+       &quot;High&quot;:&quot;3886.5&quot;,
+       &quot;QryIndex&quot;:&quot;&quot;
+       ...
+     }
+  ]
+}
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter1.html" class="navigation navigation-prev " aria-label="Previous page: 二、Publish-Subscribe">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter2.html" class="navigation navigation-next " aria-label="Next page: 一、Request-Reply">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"贰、行情","level":"2.1","depth":1,"next":{"title":"一、Request-Reply","level":"2.1.1","depth":2,"path":"chapter2.md","ref":"chapter2.md","articles":[]},"previous":{"title":"二、Publish-Subscribe","level":"1.2.2","depth":2,"path":"chapter1.md","ref":"chapter1.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2.md","mtime":"2019-09-11T03:18:36.016Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-26T03:17:26.410Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
