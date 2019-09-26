@@ -263,7 +263,7 @@
 <h2 id="&#x4E00;&#x3001;request-reply">&#x4E00;&#x3001;Request-Reply</h2>
 <p>&#x2003;&#x2003;<strong>cleint &#x53D1;&#x9001; Request&#xFF0C;&#x7B49;&#x5F85; Server &#x56DE;&#x590D; Reply&#x3002;client &#x900F;&#x8FC7;&#x6B64;&#x8054;&#x673A;&#x767B;&#x5165;&#x3001;&#x67E5;&#x8BE2;&#x5E10;&#x52A1;&#x3002;</strong></p>
 <h3 id="1&#x767B;&#x5165;">1.&#x767B;&#x5165;</h3>
-<p><strong>a.&#x767B;&#x5165;&#x6307;&#x4EE4;</strong>    </p>
+<p>a.&#x767B;&#x5165;&#x6307;&#x4EE4;</p>
 <pre><code>{
   &quot;Request&quot;:&quot;LOGIN&quot;,
   &quot;Param&quot;:
@@ -273,7 +273,7 @@
   }
 }
 </code></pre><p><br></p>
-<p><strong>b.&#x767B;&#x5165;&#x56DE;&#x590D;</strong>                     </p>
+<p>b.&#x767B;&#x5165;&#x56DE;&#x590D;                 </p>
 <ul>
 <li>&#x767B;&#x5165;&#x9A8C;&#x8BC1;&#x6210;&#x529F;<pre><code>{
   &quot;Reply&quot;:&quot;LOGIN&quot;,
@@ -281,8 +281,9 @@
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
 &quot;SubPort&quot;:&quot;n&quot;
 }
-</code></pre>&#x6CE8; 1: SessionKey&#xFF0C;&#x4E4B;&#x540E;&#x6240;&#x6709; Request &#x6307;&#x4EE4;&#x4E00;&#x5F8B;&#x9700;&#x8981;&#x5E26; SessionKey&#x3002;SessionKey &#x9519;&#x8BEF;&#xFF0C;&#x6307;&#x4EE4;&#x4E0D;&#x6267;&#x884C;&#x3002;</li>
+</code></pre></li>
 </ul>
+<p>&#x6CE8; 1: SessionKey&#xFF0C;&#x4E4B;&#x540E;&#x6240;&#x6709; Request &#x6307;&#x4EE4;&#x4E00;&#x5F8B;&#x9700;&#x8981;&#x5E26; SessionKey&#x3002;SessionKey &#x9519;&#x8BEF;&#xFF0C;&#x6307;&#x4EE4;&#x4E0D;&#x6267;&#x884C;&#x3002;</p>
 <p>&#x6CE8; 2: SubPort &#x63D0;&#x4F9B; client &#x7528;&#x6765;&#x5EFA;&#x7ACB;&#x7B2C;&#x4E8C;&#x6761; ZeroMQ Pub/Sub &#x8054;&#x673A;&#xFF0C;&#x7528;&#x6765;&#x63A5;&#x6536;&#x4E3B;&#x63A8;&#x56DE;&#x62A5;&#x3002;</p>
 <hr>
 <ul>
@@ -295,7 +296,7 @@
 </code></pre></li>
 </ul>
 <p><br></p>
-<p><strong>c.&#x767B;&#x51FA;&#x6307;&#x4EE4;</strong>        </p>
+<p>c.&#x767B;&#x51FA;&#x6307;&#x4EE4;     </p>
 <pre><code>{
  &quot;Request&quot;:&quot;LOGOUT&quot;,
  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
@@ -568,14 +569,15 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
    ]   
 }
 </code></pre><p><br></p>
-<h3 id="10pingpong">10.PING/PONG</h3>
+<h3 id="10pong">10.PONG</h3>
 <pre><code>{
-  &quot;Request&quot;:&quot;PING&quot;,
+  &quot;Request&quot;:&quot;PONG&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
 }
-&#x56DE;&#x590D;
+&#x56DE;&#x5FA9;
 {
-   &quot;Reply&quot;:&quot;PONG&quot;
+  &quot;Reply&quot;:&quot;PONG&quot;,
+      &quot;Success&quot;:&quot;OK&quot;
 }
 </code></pre><p><br></p>
 <h2 id="&#x4E8C;&#x3001;publish-subscribe">&#x4E8C;&#x3001;Publish-Subscribe</h2>
@@ -628,6 +630,11 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
      ...
   }
 }
+</code></pre><p><br></p>
+<h3 id="4ping">4.PING</h3>
+<pre><code>{
+    &quot;DataType&quot;:&quot;PING&quot;
+}
 </code></pre>
                                 
                                 </section>
@@ -671,7 +678,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"壹、交易","level":"1.2","depth":1,"next":{"title":"一、Request-Reply","level":"1.2.1","depth":2,"path":"chapter1.md","ref":"chapter1.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1.md","mtime":"2019-09-11T03:02:41.291Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-26T08:53:44.361Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"壹、交易","level":"1.2","depth":1,"next":{"title":"一、Request-Reply","level":"1.2.1","depth":2,"path":"chapter1.md","ref":"chapter1.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1.md","mtime":"2019-09-26T09:03:13.783Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-26T09:11:03.769Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

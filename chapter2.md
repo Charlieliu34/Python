@@ -28,11 +28,13 @@ b.登入回复
   "SubPort":n
 }
 ```
+
 注1:SessionKey，之后所有Request指令一律需要带SessionKey。SessionKey错误，指令部执行。
 
 注2:SubPort提供client用来建立第二条ZeroMQ Pub/Sub联机，用来接收主推行情。
 
----
+<br>
+
 - 登入验证失败
 ```
 {
@@ -184,15 +186,16 @@ c.解除订阅指令
 
 <br>
 
-### 5.PING/PONG
+### 5.PONG
 ```
 {
-  "Request":"PING",
+  "Request":"PONG",
   "SessionKey":"XXXXXXXXX"
 }
-回复
+回復
 {
-   "Reply":"PONG"
+   "Reply":"PONG",
+  	"Success":"OK"
 }
 ```
 
@@ -248,6 +251,13 @@ TC.F.CFFRX.IF.201903:{
 ```
 
 <br>
+
+### 4.PING
+```
+{
+	"DataType":"PING"
+}
+```
 
 ## 三、历史资料取得
 &emsp;&emsp;**使用 REQ/REP 联机，回补历史数据**
@@ -315,6 +325,34 @@ d.取得历史资指令
 <br>
 
 d.取得历史资指令
+```
+TC.F.CFFRX.IF.201903:{
+	"DataType":"1K",
+  "HisData":
+  [
+     {
+       "Date":"YYYYMMDD",
+       "Time":"HHMMSS",
+       "Open":"3882",
+       "High":"3886.5",
+       "QryIndex":""
+       ...
+     },
+     {
+       "Date":"YYYYMMDD",
+       "Time":"HHMMSS",
+       "Open":"3882",
+       "High":"3886.5",
+       "QryIndex":""
+       ...
+     }
+  ]
+}
+```
+
+<br>
+
+e.取得歷史資料返回結果
 ```
 TC.F.CFFRX.IF.201903:{
 	"DataType":"1K",

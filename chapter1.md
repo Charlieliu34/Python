@@ -4,7 +4,7 @@
 
 ### 1.登入
 
-**a.登入指令**    
+a.登入指令
 ```
 {
   "Request":"LOGIN",
@@ -18,7 +18,7 @@
 ```
 <br>
 
-**b.登入回复**                     
+b.登入回复                 
 - 登入验证成功
 ```
 {
@@ -28,6 +28,7 @@
   "SubPort":"n"
 }
 ```
+
 注 1: SessionKey，之后所有 Request 指令一律需要带 SessionKey。SessionKey 错误，指令不执行。
 
 注 2: SubPort 提供 client 用来建立第二条 ZeroMQ Pub/Sub 联机，用来接收主推回报。
@@ -45,7 +46,7 @@
 
 <br>
 
-**c.登出指令**        
+c.登出指令     
 ```
 {
  "Request":"LOGOUT",
@@ -397,16 +398,17 @@ b.资金查询回复
 
 <br>
 
-### 10.PING/PONG
+### 10.PONG
 
 ```
 {
-  "Request":"PING",
+  "Request":"PONG",
   "SessionKey":"XXXXXXXXX"
 }
-回复
+回復
 {
-   "Reply":"PONG"
+  "Reply":"PONG",
+  	"Success":"OK"
 }
 ```
 
@@ -472,5 +474,14 @@ b.资金查询回复
     "Account":"XXX",
      ...
   }
+}
+```
+
+<br>
+
+### 4.PING
+```
+{
+	"DataType":"PING"
 }
 ```
