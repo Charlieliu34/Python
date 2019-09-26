@@ -8,7 +8,7 @@
             "timeout": 60000,
             "type": "node",
             "request": "launch",
-            "name": "create gitbook",
+            "name": "Create Gitbook",
             "runtimeExecutable": "npm",
             "cwd": "${workspaceFolder}",
             "runtimeArgs": [
