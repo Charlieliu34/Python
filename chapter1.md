@@ -683,6 +683,7 @@
 .tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
 </style>
 <table class="tg">
+
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</td>
     <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
@@ -765,6 +766,7 @@
 .tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
 </style>
 <table class="tg">
+
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
     <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
@@ -1218,6 +1220,7 @@
 
 </style>
 <table class="tg">
+
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
     <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
@@ -1537,6 +1540,7 @@
 .tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
+
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</th>
@@ -1629,6 +1633,7 @@
 .tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
+
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
@@ -1834,6 +1839,7 @@
 .tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
+
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
