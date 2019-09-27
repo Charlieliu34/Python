@@ -672,33 +672,34 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:center;vertical-align:center}   
+.tg .tg-lboi{text-align:center;vertical-align:middle}
+.tg .tg-cly1{text-align:left;vertical-align:middle}   
+
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</th>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</th>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;回報編號<br>&nbsp;&nbsp;</th>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-cly1"><br>&nbsp;&nbsp;回報編號<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ReplaceExecType<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0:改價<br>&nbsp;&nbsp;1:改量<br>&nbsp;&nbsp;2:改價改量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;</td>
+    <td class="tg-cly1"><br>&nbsp;&nbsp;0:改價<br>&nbsp;&nbsp;1:改量<br>&nbsp;&nbsp;2:改價改量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望減少的委託量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Price<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望的委託價格<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;StopPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望的停損價格<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
