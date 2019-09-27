@@ -569,12 +569,12 @@
     <th class="tg-wa1i" colspan="2"><br>&nbsp;&nbsp;下單錯誤碼<br>&nbsp;&nbsp;</th>
   </tr>
   <tr>
-    <td class="tg-nrix"><br>&nbsp;&nbsp;-10<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;Unknow Error<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-10<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;Unknow Error<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-nrix"><br>&nbsp;&nbsp;-11<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;買賣別不對<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-11<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;買賣別不對<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-12<br>&nbsp;&nbsp;</td>
@@ -680,7 +680,6 @@
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
-
 </style>
 <table class="tg">
   <tr>
@@ -763,7 +762,6 @@
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
-
 </style>
 <table class="tg">
   <tr>
