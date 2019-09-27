@@ -554,57 +554,63 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:middle}
-.tg .tg-9wq8{border-color:inherit;text-align:left;vertical-align:middle}
-
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg">
+<table class="tg" style="undefined;table-layout: fixed; width: 426px">
+<colgroup>
+<col style="width: 68px">
+<col style="width: 358px">
+</colgroup>
   <tr>
-    <th class="tg-lboi" colspan="2"><br>&nbsp;&nbsp;下單錯誤碼<br>&nbsp;&nbsp;</th>
+    <th class="tg-wa1i" colspan="2"><br>&nbsp;&nbsp;下單錯誤碼<br>&nbsp;&nbsp;</th>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-10<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;Unknow Error<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix"><br>&nbsp;&nbsp;-10<br>&nbsp;&nbsp;</td>
+    <td class="tg-cly1"><br>&nbsp;&nbsp;Unknow Error<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-11<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;買賣別不對<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix"><br>&nbsp;&nbsp;-11<br>&nbsp;&nbsp;</td>
+    <td class="tg-cly1"><br>&nbsp;&nbsp;買賣別不對<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-12<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;複式單商品代碼解晰錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-12<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;複式單商品代碼解晰錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-13<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單帳號, 不可下此交易所商品<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-13<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;下單帳號, 不可下此交易所商品<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-14<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單錯誤, 不支援的價格 或 OrderType 或 TimeInForce<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-14<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;下單錯誤, 不支援的價格 或 OrderType 或 TimeInForce<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-15<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;不支援證券下單<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-15<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;不支援證券下單<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-20<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;連線未建立<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-20<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;連線未建立<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-22<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;價格的TickSize錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-22<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;價格的TickSize錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-23<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單數量超過該商品的上下限<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-23<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;下單數量超過該商品的上下限<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-24<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單數量錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-24<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;下單數量錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;-25<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;價格不能小於和等於0 (市價類型不會去檢查)<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh"><br>&nbsp;&nbsp;-25<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>&nbsp;&nbsp;價格不能小於和等於0 (市價類型不會去檢查)<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
 </center>
@@ -672,8 +678,8 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{text-align:center;vertical-align:middle}
-.tg .tg-cly1{text-align:left;vertical-align:middle}   
+.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
 
 </style>
 <table class="tg">
@@ -755,8 +761,8 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:center;vertical-align:middle}
+.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
 
 </style>
 <table class="tg">
@@ -1208,269 +1214,269 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:center;vertical-align:middle}
-.tg .tg-9wq8{text-align:center;vertical-align:middle}
+.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
+
 </style>
 <table class="tg">
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;券商<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerName<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;券商名稱<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;帳號 <br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AccountName<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;帳號名稱<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TransactDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;更新日期 UTC+0<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TransactTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;更新時間 UTC+0<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;商品TCore代碼<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Side<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;買賣方向 1Buy 2Sell<br>&nbsp;&nbsp;(複式單為整體買賣方向)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Quantity<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;淨倉數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;成本均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;開倉價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;CurrencyToSystem<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;系統幣別<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Covered<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 備兌倉數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;SumLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 持倉數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;SumShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 持倉數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TodayLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 今日持倉<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TodayShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 今日持倉<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;YdLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 昨日持倉<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;YdShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 昨日持倉<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 成本均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 成本均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongOpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 開倉均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortOpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 開倉均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;WorkingLong<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 委託中數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;WorkingShort<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 委託中數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdBuyQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今買入<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdSellQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今賣出<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdTotalQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今成交<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 凍结<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 凍结<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Lock_ExecFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;鎖券/執行凍结<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongAvailable<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 可平倉量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortAvailable<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 可平倉量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdBuyAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今買成均<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdSellAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今賣成均<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TdNetAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;今淨成均<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;逐日浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongFloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多逐日浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空逐日浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LongFloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;多逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;空逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;CloseProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;逐筆對沖平倉盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;CloseProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;逐日盯市平倉盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TodayProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;當日盈虧<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;MarketPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;市值權益<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OpenCost<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;開倉成本<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;PositionCost<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;持倉成本<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ExchangeRate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;交易所匯率<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgNetQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨淨倉數量(正負)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨多倉數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨空倉數量<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
@@ -1531,67 +1537,67 @@
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-lboi{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:left;vertical-align:top}
+.tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</th>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;券商 (對應下單與回報欄位)<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;券商 (對應下單與回報欄位)<br>&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;帳號 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;UserName<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;登入帳號名稱<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AccountName<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;帳號名稱<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AccountMask<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;BrokerID-Account<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerName<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;券商名稱<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Status<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;帳號狀態(0:尚未登入 1:登入中  <br>&nbsp;&nbsp;2:登入完成)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AccountType<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;S/F/O<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrderExchange<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;可下單交易所<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Level<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;ETF期權, 使用者級別<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AccountReleated<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;證券/期貨帳號 連結ID<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Region<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-cly1"><br>&nbsp;&nbsp;1:CN 2:TW 4:OB<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
@@ -1623,183 +1629,183 @@
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-lboi{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:left;vertical-align:top}
+.tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;TCore回報編號<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;TCore回報編號<br>&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;帳號 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;帳號 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;券商<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;券商<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;商品TCore代碼<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;商品TCore代碼<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Side<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;買賣別 1:Buy 2:Sell <br>&nbsp;&nbsp;(複式單為整體買賣方向)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;買賣別 1:Buy 2:Sell <br>&nbsp;&nbsp;(複式單為整體買賣方向)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrderID<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;委託書號<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;委託書號<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OriginalQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;new order時候的委託數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;new order時候的委託數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;實際委託數量=成交數量+剩餘有效委託口數<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;實際委託數量=成交數量+剩餘有效委託口數<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Price<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;委託價格<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;委託價格<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;StopPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;停損價<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;停損價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrderType<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0 : None Unknown <br>&nbsp;&nbsp;1 : Market order <br>&nbsp;&nbsp;2 : Limit order <br>&nbsp;&nbsp;3 : Stop order <br>&nbsp;&nbsp;4 : Stop limit order <br>&nbsp;&nbsp;5 : Trailing Stop<br>&nbsp;&nbsp;6 : Trailing StopLimit <br>&nbsp;&nbsp;7 : Market if Touched Order<br>&nbsp;&nbsp;8 : Limit if Touched Order<br>&nbsp;&nbsp;9 : Trailing Limit (TLMT)<br>&nbsp;&nbsp;10 : 對方價(HIT)<br>&nbsp;&nbsp;11 : 本方價(JOIN)<br>&nbsp;&nbsp;12 : DOM-Triggered Stop ( DTS )<br>&nbsp;&nbsp;13 : DOM-Triggered Stop Limit ( DTSL )<br>&nbsp;&nbsp; <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;20 : 最優價 (BST)<br>&nbsp;&nbsp;21 : 最優價轉限價 (BSTL)<br>&nbsp;&nbsp;22 : 五檔市價 (5LvlMKT)<br>&nbsp;&nbsp;23 : 五檔市價轉限價 (5LvlMTL)<br>&nbsp;&nbsp;24 : 市價轉限價 (MTL)<br>&nbsp;&nbsp;25: 一定範圍市價(MWP)<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;0 : None Unknown <br>&nbsp;&nbsp;1 : Market order <br>&nbsp;&nbsp;2 : Limit order <br>&nbsp;&nbsp;3 : Stop order <br>&nbsp;&nbsp;4 : Stop limit order <br>&nbsp;&nbsp;5 : Trailing Stop<br>&nbsp;&nbsp;6 : Trailing StopLimit <br>&nbsp;&nbsp;7 : Market if Touched Order<br>&nbsp;&nbsp;8 : Limit if Touched Order<br>&nbsp;&nbsp;9 : Trailing Limit (TLMT)<br>&nbsp;&nbsp;10 : 對方價(HIT)<br>&nbsp;&nbsp;11 : 本方價(JOIN)<br>&nbsp;&nbsp;12 : DOM-Triggered Stop ( DTS )<br>&nbsp;&nbsp;13 : DOM-Triggered Stop Limit ( DTSL )<br>&nbsp;&nbsp; <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;20 : 最優價 (BST)<br>&nbsp;&nbsp;21 : 最優價轉限價 (BSTL)<br>&nbsp;&nbsp;22 : 五檔市價 (5LvlMKT)<br>&nbsp;&nbsp;23 : 五檔市價轉限價 (5LvlMTL)<br>&nbsp;&nbsp;24 : 市價轉限價 (MTL)<br>&nbsp;&nbsp;25: 一定範圍市價(MWP)<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TradeType<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;證券<br>&nbsp;&nbsp;0:Normal<br>&nbsp;&nbsp;1:融資<br>&nbsp;&nbsp;2.融券<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;證券<br>&nbsp;&nbsp;0:Normal<br>&nbsp;&nbsp;1:融資<br>&nbsp;&nbsp;2.融券<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ExCode<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;證券<br>&nbsp;&nbsp;0:現股<br>&nbsp;&nbsp;1:零股<br>&nbsp;&nbsp;2:盤後<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;證券<br>&nbsp;&nbsp;0:現股<br>&nbsp;&nbsp;1:零股<br>&nbsp;&nbsp;2:盤後<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;PositionEffect<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0 : Open  Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10<br>&nbsp;&nbsp;: 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;0 : Open  Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10<br>&nbsp;&nbsp;: 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;DayTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 當沖<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 當沖<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TimeInForce<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC   Immediate or Cancel <br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盤前預約單<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC   Immediate or Cancel <br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盤前預約單<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TrailingAmount<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;TrailingAmount(Last, Bid, Ask)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;TrailingAmount(Last, Bid, Ask)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TouchCondition<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;觸發條件<br>&nbsp;&nbsp;ex. Last &gt;= TouchPrice<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;觸發條件<br>&nbsp;&nbsp;ex. Last &gt;= TouchPrice<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Group<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;格式為Type :<br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;格式為Type :<br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;UserKey1<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;對應委託參數的UserKey1欄位資料<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;對應委託參數的UserKey1欄位資料<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;CumQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;已成交數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;已成交數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;LeavesQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;委託剩餘有效量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;委託剩餘有效量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ExecType<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;委託執行狀態<br>&nbsp;&nbsp;-10: 請UI隱藏該筆回報 不要顯示<br>&nbsp;&nbsp; (原預埋單回報 與 送至交易所主推回報<br>&nbsp;&nbsp;無法合單 所以隱藏該筆原預埋單回報)<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;0:委託成功(包含改價改量)<br>&nbsp;&nbsp;1:部份委託成功其餘處理中<br>&nbsp;&nbsp;2:部份委託成功其餘錯誤<br>&nbsp;&nbsp;3:全部成交<br>&nbsp;&nbsp;4:部份成交其餘委託處理中<br>&nbsp;&nbsp;5:部份成交其餘刪單<br>&nbsp;&nbsp;6:部分成交尚有有效單<br>&nbsp;&nbsp;7.部份成交其餘錯誤<br>&nbsp;&nbsp;8:完全刪單成功<br>&nbsp;&nbsp;9.部份刪單成功<br>&nbsp;&nbsp;10:委託失敗<br>&nbsp;&nbsp;11:委託處理中<br>&nbsp;&nbsp;12:刪改單錯誤<br>&nbsp;&nbsp;13:洗價中<br>&nbsp;&nbsp;14:ITS主機已收單(增加中)<br>&nbsp;&nbsp;15:等待中(不可撤單)<br>&nbsp;&nbsp;16:洗價單, 觸價送單<br>&nbsp;&nbsp;17:鎖券成功<br>&nbsp;&nbsp;18:鎖券失敗<br>&nbsp;&nbsp;19:鎖券已提交<br>&nbsp;&nbsp;20:等待中(可撤單)<br>&nbsp;&nbsp;21:下單鎖定 Block<br>&nbsp;&nbsp;22:撤單傳送中<br>&nbsp;&nbsp;23:預約單<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;31:洗價暫停中<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;委託執行狀態<br>&nbsp;&nbsp;-10: 請UI隱藏該筆回報 不要顯示<br>&nbsp;&nbsp; (原預埋單回報 與 送至交易所主推回報<br>&nbsp;&nbsp;無法合單 所以隱藏該筆原預埋單回報)<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;0:委託成功(包含改價改量)<br>&nbsp;&nbsp;1:部份委託成功其餘處理中<br>&nbsp;&nbsp;2:部份委託成功其餘錯誤<br>&nbsp;&nbsp;3:全部成交<br>&nbsp;&nbsp;4:部份成交其餘委託處理中<br>&nbsp;&nbsp;5:部份成交其餘刪單<br>&nbsp;&nbsp;6:部分成交尚有有效單<br>&nbsp;&nbsp;7.部份成交其餘錯誤<br>&nbsp;&nbsp;8:完全刪單成功<br>&nbsp;&nbsp;9.部份刪單成功<br>&nbsp;&nbsp;10:委託失敗<br>&nbsp;&nbsp;11:委託處理中<br>&nbsp;&nbsp;12:刪改單錯誤<br>&nbsp;&nbsp;13:洗價中<br>&nbsp;&nbsp;14:ITS主機已收單(增加中)<br>&nbsp;&nbsp;15:等待中(不可撤單)<br>&nbsp;&nbsp;16:洗價單, 觸價送單<br>&nbsp;&nbsp;17:鎖券成功<br>&nbsp;&nbsp;18:鎖券失敗<br>&nbsp;&nbsp;19:鎖券已提交<br>&nbsp;&nbsp;20:等待中(可撤單)<br>&nbsp;&nbsp;21:下單鎖定 Block<br>&nbsp;&nbsp;22:撤單傳送中<br>&nbsp;&nbsp;23:預約單<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;31:洗價暫停中<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ErrorCode<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18錯誤單時<br>&nbsp;&nbsp;請抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有錯誤<br>&nbsp;&nbsp;若ErrorCode=-777為Undefine<br>&nbsp;&nbsp;Error   錯誤內容 請看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定義如後[12.回報ErrorCode定義]<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18錯誤單時<br>&nbsp;&nbsp;請抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有錯誤<br>&nbsp;&nbsp;若ErrorCode=-777為Undefine<br>&nbsp;&nbsp;Error   錯誤內容 請看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定義如後[12.回報ErrorCode定義]<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TriggeredPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;洗價單 觸發價格<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;洗價單 觸發價格<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TransactDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;更新日期<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;更新日期<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TransactTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;更新時間 (UpdateTime)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;更新時間 (UpdateTime)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;AvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;成交均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;成交均價<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ExecTypeText<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;委託執行狀態描述[server錯誤訊息]<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;委託執行狀態描述[server錯誤訊息]<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;FilledOrdersCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;成交回報數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;成交回報數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;IsRestoreData<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;0 : 即時回報<br>&nbsp;&nbsp;1 : 回補回報<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;0 : 即時回報<br>&nbsp;&nbsp;1 : 回補回報<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;HedgeFlag<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;投机套保标志 <br>&nbsp;&nbsp;(1:投機 2:套利 3:套保 4:備兌)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;投机套保标志 <br>&nbsp;&nbsp;(1:投機 2:套利 3:套保 4:備兌)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;OrgSource<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單來源別<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;下單來源別<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TradeDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;交易日<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;交易日<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;SetPRIADJ<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;履約價調整(中國ETF期權第幾次調整合約履約價)<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;履約價調整(中國ETF期權第幾次調整合約履約價)<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
 </center>
@@ -1838,53 +1844,53 @@
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;帳號<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;帳號<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;ReferenceVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;參考口數<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;參考口數<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TotalScore<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;總評分<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;總評分<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TotalScoreChange<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;評分變化量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;評分變化量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;持倉即時損益<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;持倉即時損益<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Inc<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;損益權重分配<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;損益權重分配<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;RiskTake<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;動用風險<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;動用風險<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;NewOrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;下單數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;下單數量<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;TotalN<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;開放交易的策略總數上限<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;開放交易的策略總數上限<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;SumChannel<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</td>
-    <td class="tg-9wq8"><br>&nbsp;&nbsp;商品類別<br>&nbsp;&nbsp;</td>
+    <td class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;商品類別<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
 </center>
