@@ -282,7 +282,7 @@
   
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
-    <th class="tg-c3ow"><br>&nbsp;&nbsp;BSTR<br>&nbsp;&nbsp;</th>
+    <th class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</th>
     <td class="tg-0pky"><br>&nbsp;&nbsp;券商<br>&nbsp;&nbsp;</td>
     
     
