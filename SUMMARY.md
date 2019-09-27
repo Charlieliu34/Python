@@ -3,12 +3,12 @@
 * [Introduction](README.md)
 
 * [壹、交易](chapter1.md)
-  * [一、Request-Reply](chapter1.md#一、Request-Reply)
-    * [1.登入](chapter1.md##1.登入)
-    * [2.资金账号](chapter1.md##2.资金账号)
-    * [3.全部合约查询](chapter1.md#3.全部合约查询)
-    * [4.商品交易设定查询](chapter1.md#4.商品交易设定查询)
-    * [5.回报回补](chapter1.md#5.回报回补)
+* [一、Request-Reply](chapter1.md#一、Request-Reply)
+* [1.登入](chapter1.md##1.登入)
+* [2.资金账号](chapter1.md##2.资金账号)
+* [3.全部合约查询](chapter1.md#3.全部合约查询)
+* [4.商品交易设定查询](chapter1.md#4.商品交易设定查询)
+* [5.回报回补](chapter1.md#5.回报回补)
     * [6.期货/期权下单](chapter1.md#6.期货/期权下单)
     * [7.删改单](chapter1.md#7.删改单)  
     * [8.期货/期权 资金查询](chapter1.md#8.期货/期权资金查询)
@@ -17,8 +17,7 @@
 
 
 
-
-  * [二、Publish-Subscribe](chapter1.md#二、Publish-Subscribe)
+ * [二、Publish-Subscribe](chapter1.md#二、Publish-Subscribe)
     * [1.资金账号主推       ](chapter1.md#1.资金账号主推)
     * [2.回报主推           ](chapter1.md#2.回报主推)
     * [3.DaVinci讯号        ](chapter1.md#3.DaVinci讯号)
