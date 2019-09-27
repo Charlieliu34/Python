@@ -554,7 +554,7 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:center}
+.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-0lax{border-color:inherit;text-align:left;vertical-align:center}
 </style>
@@ -608,12 +608,11 @@
   </tr>
 </table>
 </center>
+
 <br>
 
-
 ### 7.删改单
-
-a.改单指令
+#### a.改单指令
 
 ```python
 {
@@ -632,7 +631,7 @@ a.改单指令
 
 <br>
 
-b.改单回复
+#### b.改单回复
 
 ```python
 {
@@ -644,7 +643,7 @@ b.改单回复
 
 <br>
 
-c.删单指令
+#### c.删单指令
 
 ```python
 {
@@ -658,7 +657,7 @@ c.删单指令
 
 <br>
 
-d.删单回复
+#### d.删单回复
 
 ```python
 {
@@ -709,7 +708,7 @@ d.删单回复
 
 ### 8.期货/期权 资金查询
 
-a.资金查询指令
+#### a.资金查询指令
 
 ```python
 {
@@ -721,7 +720,7 @@ a.资金查询指令
 
 <br>
 
-b.资金查询回复
+#### b.资金查询回复
 
 ```python
 {

@@ -761,7 +761,7 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:center}
+.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-0lax{border-color:inherit;text-align:left;vertical-align:center}
 </style>
@@ -815,66 +815,49 @@
   </tr>
 </table>
 </center>
-<br>
 
-
-### 7.&#x5220;&#x6539;&#x5355;
-
-a.&#x6539;&#x5355;&#x6307;&#x4EE4;
-
-```python
-{
-  &quot;Request&quot;:&quot;REPLACEORDER&quot;,
-  &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
-  &quot;Param&quot;:
+<p><br></p>
+<h3 id="7&#x5220;&#x6539;&#x5355;">7.&#x5220;&#x6539;&#x5355;</h3>
+<h4 id="a&#x6539;&#x5355;&#x6307;&#x4EE4;">a.&#x6539;&#x5355;&#x6307;&#x4EE4;</h4>
+<pre><code class="lang-python">{
+  <span class="hljs-string">&quot;Request&quot;</span>:<span class="hljs-string">&quot;REPLACEORDER&quot;</span>,
+  <span class="hljs-string">&quot;SessionKey&quot;</span>:<span class="hljs-string">&quot;XXXXXXXXX&quot;</span>,
+  <span class="hljs-string">&quot;Param&quot;</span>:
   {
-    &quot;ReportID&quot;:&quot;123456&quot;,
-    &quot;ReplaceExecType&quot;:&quot;n&quot;,
-    &quot;OrderQty&quot;:&quot;n&quot;,
-    &quot;Price&quot;:&quot;xxxxx&quot;,
-      &quot;StopPrice&quot;:&quot;xxxxx&quot;,
+    <span class="hljs-string">&quot;ReportID&quot;</span>:<span class="hljs-string">&quot;123456&quot;</span>,
+    <span class="hljs-string">&quot;ReplaceExecType&quot;</span>:<span class="hljs-string">&quot;n&quot;</span>,
+    <span class="hljs-string">&quot;OrderQty&quot;</span>:<span class="hljs-string">&quot;n&quot;</span>,
+    <span class="hljs-string">&quot;Price&quot;</span>:<span class="hljs-string">&quot;xxxxx&quot;</span>,
+      <span class="hljs-string">&quot;StopPrice&quot;</span>:<span class="hljs-string">&quot;xxxxx&quot;</span>,
   }    
 }
-```
-
-<br>
-
-b.&#x6539;&#x5355;&#x56DE;&#x590D;
-
-```python
-{
-    &quot;Reply&quot;:&quot;REPLACEORDER&quot;,
-  &quot;Success&quot;:&quot;OK&quot;,
-  &quot;ReportID&quot;:&quot;123456&quot;
+</code></pre>
+<p><br></p>
+<h4 id="b&#x6539;&#x5355;&#x56DE;&#x590D;">b.&#x6539;&#x5355;&#x56DE;&#x590D;</h4>
+<pre><code class="lang-python">{
+    <span class="hljs-string">&quot;Reply&quot;</span>:<span class="hljs-string">&quot;REPLACEORDER&quot;</span>,
+  <span class="hljs-string">&quot;Success&quot;</span>:<span class="hljs-string">&quot;OK&quot;</span>,
+  <span class="hljs-string">&quot;ReportID&quot;</span>:<span class="hljs-string">&quot;123456&quot;</span>
 }
-```
-
-<br>
-
-c.&#x5220;&#x5355;&#x6307;&#x4EE4;
-
-```python
-{
-  &quot;Request&quot;:&quot;CANCELORDER&quot;,
-  &quot;Param&quot;:
+</code></pre>
+<p><br></p>
+<h4 id="c&#x5220;&#x5355;&#x6307;&#x4EE4;">c.&#x5220;&#x5355;&#x6307;&#x4EE4;</h4>
+<pre><code class="lang-python">{
+  <span class="hljs-string">&quot;Request&quot;</span>:<span class="hljs-string">&quot;CANCELORDER&quot;</span>,
+  <span class="hljs-string">&quot;Param&quot;</span>:
   {
-    &quot;ReportID&quot;:&quot;123456&quot;
+    <span class="hljs-string">&quot;ReportID&quot;</span>:<span class="hljs-string">&quot;123456&quot;</span>
   }    
 }
-```
-
-<br>
-
-d.&#x5220;&#x5355;&#x56DE;&#x590D;
-
-```python
-{
-    &quot;Reply&quot;:&quot;CANCELORDER&quot;,
-  &quot;Success&quot;:&quot;OK&quot;,
-  &quot;ReportID&quot;:&quot;123456&quot;
+</code></pre>
+<p><br></p>
+<h4 id="d&#x5220;&#x5355;&#x56DE;&#x590D;">d.&#x5220;&#x5355;&#x56DE;&#x590D;</h4>
+<pre><code class="lang-python">{
+    <span class="hljs-string">&quot;Reply&quot;</span>:<span class="hljs-string">&quot;CANCELORDER&quot;</span>,
+  <span class="hljs-string">&quot;Success&quot;</span>:<span class="hljs-string">&quot;OK&quot;</span>,
+  <span class="hljs-string">&quot;ReportID&quot;</span>:<span class="hljs-string">&quot;123456&quot;</span>
 }
-```
-
+</code></pre>
 <center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -914,7 +897,7 @@ d.&#x5220;&#x5355;&#x56DE;&#x590D;
 
 <p><br></p>
 <h3 id="8&#x671F;&#x8D27;&#x671F;&#x6743;-&#x8D44;&#x91D1;&#x67E5;&#x8BE2;">8.&#x671F;&#x8D27;/&#x671F;&#x6743; &#x8D44;&#x91D1;&#x67E5;&#x8BE2;</h3>
-<p>a.&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x6307;&#x4EE4;</p>
+<h4 id="a&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x6307;&#x4EE4;">a.&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x6307;&#x4EE4;</h4>
 <pre><code class="lang-python">{
   <span class="hljs-string">&quot;Request&quot;</span>:<span class="hljs-string">&quot;MARGINS&quot;</span>,
   <span class="hljs-string">&quot;SessionKey&quot;</span>:<span class="hljs-string">&quot;XXXXXXXXX&quot;</span>
@@ -922,7 +905,7 @@ d.&#x5220;&#x5355;&#x56DE;&#x590D;
 }
 </code></pre>
 <p><br></p>
-<p>b.&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x56DE;&#x590D;</p>
+<h4 id="b&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x56DE;&#x590D;">b.&#x8D44;&#x91D1;&#x67E5;&#x8BE2;&#x56DE;&#x590D;</h4>
 <pre><code class="lang-python">{
   <span class="hljs-string">&quot;Reply&quot;</span>:<span class="hljs-string">&quot;MARGINS&quot;</span>,
   <span class="hljs-string">&quot;Success&quot;</span>:<span class="hljs-string">&quot;OK&quot;</span>,
@@ -2107,7 +2090,7 @@ d.&#x5220;&#x5355;&#x56DE;&#x590D;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"壹、交易","level":"1.2","depth":1,"next":{"title":"一、Request-Reply","level":"1.2.1","depth":2,"anchor":"#一、Request-Reply","path":"chapter1.md","ref":"chapter1.md#一、Request-Reply","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1.md","mtime":"2019-09-27T06:24:30.856Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-27T06:24:38.763Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"壹、交易","level":"1.2","depth":1,"next":{"title":"一、Request-Reply","level":"1.2.1","depth":2,"anchor":"#一、Request-Reply","path":"chapter1.md","ref":"chapter1.md#一、Request-Reply","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter1.md","mtime":"2019-09-27T06:27:57.249Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-27T06:28:05.084Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
