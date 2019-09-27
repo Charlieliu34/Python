@@ -34,6 +34,7 @@
 
 注 2: SubPort 提供 client 用来建立第二条 ZeroMQ Pub/Sub 联机，用来接收主推回报。
 
+<br>
 
 - 登入验证失败
 
@@ -1499,9 +1500,7 @@
 
 ## 二、Publish-Subscribe
 &emsp;&emsp;**cleint 透过 pub/sub 联机，接收资金账号变动及主推回报**
-
 ### 1.资金账号主推
-
 ```python
 {
 	"DataType":"ACCOUNTS",
