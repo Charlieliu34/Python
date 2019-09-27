@@ -1834,13 +1834,13 @@
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-lboi{text-align:left;vertical-align:middle}
-.tg .tg-lboi{text-align:left;vertical-align:top}
+.tg .tg-cly1{text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
     <th class="tg-lboi"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</th>
     <th class="tg-lboi"><br>&nbsp;&nbsp;string<br>&nbsp;&nbsp;</th>
-    <th class="tg-lboi"><br>&nbsp;&nbsp;合約<br>&nbsp;&nbsp;</th>
+    <th class="tg-cly1"><br>&nbsp;&nbsp;合約<br>&nbsp;&nbsp;</th>
   </tr>
   <tr>
     <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
