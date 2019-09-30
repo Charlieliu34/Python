@@ -679,9 +679,9 @@
   "ReportID":"123456"
 }
 ```       
-
+<center>
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:0;}s
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
@@ -690,27 +690,27 @@
 <table class="tg">
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp; ReportID  <br>&nbsp;&nbsp;</td>
-   <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>BSTR<br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">  回報編號  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  ReplaceExecType  <br>&nbsp;&nbsp;</td>
-   <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>BSTR<br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">  0:改價  1:改量  2:改價改量  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  OrderQty  </td>
-     <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>BSTR<br>&nbsp;&nbsp;</td>
+     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">  使用者期望減少的委託量  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Price  <br>&nbsp;&nbsp;</td>
-   <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>BSTR<br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">  使用者期望的委託價格  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  StopPrice  <br>&nbsp;&nbsp;</td>
-   <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>BSTR<br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">  使用者期望的停損價格</td>
   </tr>
 </table>
