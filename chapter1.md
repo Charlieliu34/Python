@@ -679,35 +679,36 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
-
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;回報編號<br>&nbsp;&nbsp;</td>
+    <th class="tg-9wq8"> ReportID  </th>
+    <th class="tg-9wq8">BSTR  </th>
+    <th class="tg-lboi">  回報編號  </th>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ReplaceExecType<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;0:改價<br>&nbsp;&nbsp;1:改量<br>&nbsp;&nbsp;2:改價改量<br>&nbsp;&nbsp;</td>
+    <td class="tg-9wq8">  ReplaceExecType  </td>
+    <td class="tg-9wq8">BSTR     </td>
+    <td class="tg-lboi">  0:改價  1:改量  2:改價改量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望減少的委託量<br>&nbsp;&nbsp;</td>
+    <td class="tg-9wq8">  OrderQty  </td>
+    <td class="tg-9wq8">BSTR  </td>
+    <td class="tg-lboi">  使用者期望減少的委託量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Price<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望的委託價格<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">  Price  </td>
+    <td class="tg-c3ow">BSTR  </td>
+    <td class="tg-0pky">  使用者期望的委託價格  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;StopPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;使用者期望的停損價格<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">  StopPrice  </td>
+    <td class="tg-c3ow">BSTR  </td>
+    <td class="tg-0pky">  使用者期望的停損價格</td>
   </tr>
 </table>
 </center>
@@ -762,405 +763,411 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
-<table class="tg">
-
+<table class="tg" style="undefined;table-layout: fixed; width: 612px">
+<colgroup>
+<col style="width: 230px">
+<col style="width: 58px">
+<col style="width: 324px">
+</colgroup>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;券商 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
+    <th class="tg-nrix">BrokerID  </th>
+    <th class="tg-nrix">BSTR  </th>
+    <th class="tg-cly1">  券商 (對應下單與回報欄位)  </th>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerName<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;券商名稱<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  BrokerName  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  券商名稱  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳號 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Account  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  帳號 (對應下單與回報欄位)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;AccountName<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳號名稱<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  AccountName  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  帳號名稱  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TransactDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;更新日期 UTC+0<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  TransactDate  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  更新日期 UTC+0  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TransactTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;更新時間 UTC+0<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  TransactTime  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  更新時間 UTC+0  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BeginningBalance<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;期初結存<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  BeginningBalance  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  期初結存  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Commissions<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;交易手續費<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Commissions  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  交易手續費  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FrozenCommission<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;凍結手續費<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FrozenCommission  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  凍結手續費  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExchangeClearinigFee<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;交易所費用與結算費用<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ExchangeClearinigFee  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  交易所費用與結算費用  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerageFee<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;經紀商費用<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  BrokerageFee  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  經紀商費用  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;GrossPL<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;已實現損益(未扣除費用)<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  GrossPL  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  已實現損益(未扣除費用)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OptionPremium<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;選擇權權利金收入<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  OptionPremium  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  選擇權權利金收入  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CashIn<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;证券买卖当日收支<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CashIn  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  证券买卖当日收支  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;NetPL<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;已實現損益(扣除費用並加上選擇權權利金收入)<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  NetPL  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  已實現損益(扣除費用並加上選擇權權利金收入)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Deposit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今日入金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Deposit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  今日入金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Withdraw<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今日出金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Withdraw  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  今日出金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CashActivity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今日出入金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CashActivity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  今日出入金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExcessEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;可用資金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ExcessEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  可用資金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;WithdrawQuota<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;可取資金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  WithdrawQuota  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  可取資金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;EndingBalance<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;期末結存<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  EndingBalance  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  期末結存  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OpenTradeEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;未平倉損益(包含選擇權和期貨)<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  OpenTradeEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  未平倉損益(包含選擇權和期貨)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TotalEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;總權益數<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  TotalEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  總權益數  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OptionNetMarketValue<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;選擇權市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  OptionNetMarketValue  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  選擇權市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;AccountValueAtMarket<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳戶市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  AccountValueAtMarket  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  帳戶市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;InitialMarginRequirement<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;初始保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  InitialMarginRequirement  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  初始保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MaintenanceMarginRequirement<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;維持保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MaintenanceMarginRequirement  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  維持保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CurrMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;當前保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CurrMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  當前保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MarginDeficit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;追繳保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MarginDeficit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  追繳保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FrozenMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;凍結保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FrozenMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  凍結保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FrozenCash<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;凍結資金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FrozenCash  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  凍結資金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ReserveBalance<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;保底準備金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ReserveBalance  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  保底準備金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Credit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;信用額度<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Credit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  信用額度  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Mortgage<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;質押金額<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Mortgage  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  質押金額  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreMortgage<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次質押金額<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreMortgage  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次質押金額  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreCredit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次信用額度<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreCredit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次信用額度  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreDeposit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次存款額<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreDeposit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次存款額  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次佔用的保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次佔用的保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExchangeMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;交易所保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ExchangeMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  交易所保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;DeliveryMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;投資者交割保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  DeliveryMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  投資者交割保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExchangeDeliveryMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;交易所交割保证金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ExchangeDeliveryMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  交易所交割保证金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CurrencyToSystem<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;系統幣別<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CurrencyToSystem  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  系統幣別  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CurrencyConversionRate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;幣別轉換比率(轉換到帳戶幣別使用)<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CurrencyConversionRate  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  幣別轉換比率(轉換到帳戶幣別使用)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CurrencyToClient<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳戶幣別<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  CurrencyToClient  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  帳戶幣別  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ConvertedAccountValueAtMkt<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;幣別轉換後帳戶市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ConvertedAccountValueAtMkt  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  幣別轉換後帳戶市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExerciseIncome<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;行權盈虧 到期履約損益　<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ExerciseIncome  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  行權盈虧 到期履約損益　  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;IncomeBalance<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;盈虧金額<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  IncomeBalance  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  盈虧金額  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;InterestBase<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;利息基数<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  InterestBase  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  利息基数  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Interest<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;利息收入<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Interest  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  利息收入  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MarginLevel<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;保证金水平 風險指標<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MarginLevel  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  保证金水平 風險指標  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;UPLForOptions<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;未沖銷選擇權浮動損益<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  UPLForOptions  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  未沖銷選擇權浮動損益  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongOptionNetMarketValue<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;未沖銷買方選擇權市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  LongOptionNetMarketValue  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  未沖銷買方選擇權市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortOptionNetMarketValue<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;未沖銷賣方選擇權市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ShortOptionNetMarketValue  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  未沖銷賣方選擇權市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FrozenpPremium<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;委託權利金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FrozenpPremium  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  委託權利金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MarginExcess<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;加收原始保證金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MarginExcess  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  加收原始保證金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;AdjustedEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;契約調整權益數 加/減項<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  AdjustedEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  契約調整權益數 加/減項  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreFundMortgageIn<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次货币质入金额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreFundMortgageIn  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次货币质入金额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PreFundMortgageOut<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;上次货币质出金额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  PreFundMortgageOut  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  上次货币质出金额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FundMortgageIn<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;货币质入金额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FundMortgageIn  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  货币质入金额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FundMortgageOut<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;货币质出金额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FundMortgageOut  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  货币质出金额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FundMortgageAvailable<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;货币质押余额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FundMortgageAvailable  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  货币质押余额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MortgageableFund<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;可质押货币金额<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MortgageableFund  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  可质押货币金额  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品占用保证金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品占用保证金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductFrozenMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品冻结保证金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductFrozenMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品冻结保证金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductCommission<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品手续费<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductCommission  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品手续费  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductFrozenCommission<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品冻结手续费<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductFrozenCommission  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品冻结手续费  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductPositionProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品持仓盈亏<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductPositionProfit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品持仓盈亏  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductCloseProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品平仓盈亏<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductCloseProfit  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品平仓盈亏  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductPositionProfitByAlg<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;根据持仓盈亏算法计算的特殊产品持仓盈亏<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductPositionProfitByAlg  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  根据持仓盈亏算法计算的特殊产品持仓盈亏  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SpecProductExchangeMargin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;特殊产品交易所保证金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  SpecProductExchangeMargin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  特殊产品交易所保证金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐日浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FloatProfitByDate  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  逐日浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FloatProfitByTrade  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  逐筆浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FutureProfitByDay<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;期貨當日盈虧 <br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  FutureProfitByDay  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  期貨當日盈虧   </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ReferenceRiskRate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;參考風險度<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  ReferenceRiskRate  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  參考風險度  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TryExcessEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;試算可用資金<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  TryExcessEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  試算可用資金  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;DynamicEquity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;動態權益<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  DynamicEquity  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  動態權益  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MarketPremium<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;市值權益<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  MarketPremium  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  市值權益  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Op tionPremiumCoin<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;未沖銷權利金市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  Op tionPremiumCoin  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  未沖銷權利金市值  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;StockReferenceMarket<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;股票參考市值<br>&nbsp;&nbsp;</td>
+    <td class="tg-baqh">  StockReferenceMarket  </td>
+    <td class="tg-baqh">BSTR  </td>
+    <td class="tg-0lax">  股票參考市值</td>
   </tr>
 </table>
 </center>
@@ -1215,271 +1222,269 @@
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-lboi{border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-cly1{border-color:inherit;text-align:left;vertical-align:center}
-
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
 </style>
 <table class="tg">
-
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;券商<br>&nbsp;&nbsp;</td>
+    <th class="tg-nrix"> BrokerID  </th>
+    <th class="tg-nrix">BSTR  </th>
+    <th class="tg-cly1">  券商  </th>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;BrokerName<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;券商名稱<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  BrokerName  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  券商名稱  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳號 <br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Account  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  帳號  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;AccountName<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;帳號名稱<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  AccountName  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  帳號名稱  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TransactDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;更新日期 UTC+0<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TransactDate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  更新日期 UTC+0  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TransactTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;更新時間 UTC+0<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TransactTime  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  更新時間 UTC+0  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;商品TCore代碼<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Symbol  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  商品TCore代碼  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Side<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;買賣方向 1Buy 2Sell<br>&nbsp;&nbsp;(複式單為整體買賣方向)<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Side  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  買賣方向 1Buy 2Sell  (複式單為整體買賣方向)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Quantity<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;淨倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Quantity  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  淨倉數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;AvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;成本均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  AvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  成本均價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;開倉價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  OpenPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  開倉價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CurrencyToSystem<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;系統幣別<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  CurrencyToSystem  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  系統幣別  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Covered<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 備兌倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Covered  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 備兌倉數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SumLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 持倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  SumLongQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 持倉數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;SumShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 持倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  SumShortQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 持倉數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TodayLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 今日持倉<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TodayLongQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 今日持倉  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TodayShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 今日持倉<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TodayShortQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 今日持倉  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;YdLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 昨日持倉<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  YdLongQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 昨日持倉  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;YdShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 昨日持倉<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  YdShortQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 昨日持倉  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 成本均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongAvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 成本均價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 成本均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortAvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 成本均價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongOpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 開倉均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongOpenPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 開倉均價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortOpenPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 開倉均價<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortOpenPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 開倉均價  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;WorkingLong<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 委託中數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  WorkingLong  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 委託中數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;WorkingShort<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 委託中數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  WorkingShort  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 委託中數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdBuyQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今買入<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdBuyQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今買入  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdSellQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今賣出<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdSellQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今賣出  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdTotalQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今成交<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdTotalQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今成交  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 凍结<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongFrozen  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 凍结  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 凍结<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortFrozen  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 凍结  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;Lock_ExecFrozen<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;鎖券/執行凍结<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  Lock_ExecFrozen  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  鎖券/執行凍结  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongAvailable<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多頭 可平倉量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongAvailable  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多頭 可平倉量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortAvailable<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空頭 可平倉量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortAvailable  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空頭 可平倉量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdBuyAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今買成均<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdBuyAvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今買成均  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdSellAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今賣成均<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdSellAvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今賣成均  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TdNetAvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;今淨成均<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TdNetAvgPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  今淨成均  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐日浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  FloatProfitByDate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  逐日浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;FloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  FloatProfitByTrade  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  逐筆浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongFloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多逐日浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongFloatProfitByDate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多逐日浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFloatProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空逐日浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortFloatProfitByDate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空逐日浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;LongFloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;多逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  LongFloatProfitByTrade  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  多逐筆浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ShortFloatProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;空逐筆浮動盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ShortFloatProfitByTrade  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  空逐筆浮動盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CloseProfitByTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐筆對沖平倉盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  CloseProfitByTrade  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  逐筆對沖平倉盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;CloseProfitByDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;逐日盯市平倉盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  CloseProfitByDate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  逐日盯市平倉盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;TodayProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;當日盈虧<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  TodayProfit  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  當日盈虧  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;MarketPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;市值權益<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  MarketPrice  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  市值權益  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;OpenCost<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;開倉成本<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  OpenCost  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  開倉成本  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;PositionCost<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;持倉成本<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  PositionCost  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  持倉成本  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;ExchangeRate<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;交易所匯率<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  ExchangeRate  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  交易所匯率  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgNetQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨淨倉數量(正負)<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  YdOrgNetQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  當日起始 昨淨倉數量(正負)  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgLongQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨多倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  YdOrgLongQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  當日起始 昨多倉數量  </td>
   </tr>
   <tr>
-    <td class="tg-lboi"><br>&nbsp;&nbsp;YdOrgShortQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-lboi"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-cly1"><br>&nbsp;&nbsp;當日起始 昨空倉數量<br>&nbsp;&nbsp;</td>
+    <td class="tg-nrix">  YdOrgShortQty  </td>
+    <td class="tg-nrix">BSTR  </td>
+    <td class="tg-cly1">  當日起始 昨空倉數量</td>
   </tr>
 </table>
 </center>
