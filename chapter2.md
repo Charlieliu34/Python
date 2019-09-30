@@ -823,7 +823,7 @@ TC.F.CFFRX.IF.201903:{
 
 <br>
 
-### 3.DaVinci 讯号
+### 3.DaVinci讯号
 ```
 {
 	"DataType":"DavinciSignal",
