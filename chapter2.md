@@ -954,7 +954,7 @@ a.回补指令
     <tr>
     <td class="tg-c3ow">StartTime</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">YYMMDDHH</td>
+    <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH</td>
    </tr>
    <tr>
     <td class="tg-c3ow">EndTime</td>
