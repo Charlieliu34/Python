@@ -524,7 +524,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;Consecutive <br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 1 : 连续送单 2:TW连续IOC<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 1 : 连续送单 &nbsp;&nbsp; 2:TW连续IOC<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -1273,7 +1273,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Side <br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">  买卖方向 1Buy 2Sell  (复式单为整体买卖方向)  </td>
+    <td class="tg-0pky">  买卖方向 1.Buy &nbsp;&nbsp; 2.Sell  (复式单为整体买卖方向)  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Quantity <br>&nbsp;&nbsp;</td>
