@@ -13,4 +13,3 @@
 
 
 * Client App行情需建立兩條ZeroMQ連線，一條REP/REQ連線，一條PUB/SUB連線。若要連接交易，需再建立另兩條REP/REQ、PUB/SUB連線。
-ssss
