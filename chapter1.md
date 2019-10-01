@@ -703,7 +703,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  ReplaceExecType  <br>&nbsp;&nbsp;</td>
    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">  0:改價  1:改量  2:改價改量  </td>
+    <td class="tg-0pky">  0:改價 &nbsp;&nbsp; 1:改量 &nbsp;&nbsp; 2:改價改量  </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  OrderQty  <br>&nbsp;&nbsp; </td>
@@ -1592,7 +1592,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Status<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 帳號狀態<br>(0:尚未登入 1:登入中   2:登入完成)<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 帳號狀態<br>(0:尚未登入 &nbsp;&nbsp;1:登入中&nbsp;&nbsp;   2:登入完成)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountType<br>&nbsp;&nbsp;</td>
@@ -1617,7 +1617,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Region<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 1:CN 2:TW 4:OB<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 1:CN &nbsp;&nbsp;2:TW &nbsp;&nbsp;4:OB<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
 </center>
