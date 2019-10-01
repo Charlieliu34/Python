@@ -431,13 +431,19 @@
     <td class="tg-c3ow"><br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky"><br>  GroupID or OCOID or OTOID or OTOCOID or  OTOSID<br></td>
-    
-    
+
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;ChasePrice<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 追價 <br>&nbsp;&nbsp;格式為[每次增加價格|追價幾次|每次追價幾秒|最後下市價或刪單或掛單(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;限價追價 <br>&nbsp;&nbsp;格式為[0|追價限制幾跳|-11 (Chase<br>&nbsp;&nbsp;Trailing) or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;或是[1|追價幾次|-11 (Chase Trailing)<br>&nbsp;&nbsp;or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;a.若 每次增加價格 &lt; 1000 表示幾跳Ticks<br>&nbsp;&nbsp;b.追價幾秒=-11 (Chase<br>&nbsp;&nbsp;Trailing)<br>&nbsp;&nbsp;c.追價幾秒=-12 (Chase if<br>&nbsp;&nbsp;touch)<br>&nbsp;&nbsp;d.Price Type=(LTP, BID, ASK)<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">
+
+  **追價**  <br>&nbsp;&nbsp;格式為[每次增加價格|追價幾次|每次追價幾秒|最後下市價或刪單或掛單(M or C or L)|PriceType]<br>&nbsp;&nbsp; <br>
+  
+  **限價追價** <br>&nbsp;&nbsp;格式為[0|追價限制幾跳|-11 (Chase<br>&nbsp;&nbsp;Trailing) or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>
+  或是[1|追價幾次|-11 (Chase Trailing)<br>&nbsp;&nbsp;or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or L)|PriceType]<br>&nbsp;&nbsp;
+  
+   &nbsp;&nbsp; **a.若 每次增加價格 &lt; 1000 表示幾跳Ticks**<br>&nbsp;&nbsp; **b.追價幾秒=-11 (Chase<br>&nbsp;&nbsp;Trailing)**<br>&nbsp;&nbsp; **c.追價幾秒=-12 (Chase if<br>&nbsp;&nbsp;touch)** <br>&nbsp;&nbsp; **d.Price Type=(LTP, BID, ASK)** <br>&nbsp;&nbsp;</td>
     
     
   </tr>
