@@ -1591,7 +1591,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  Status<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 帳號狀態(0:尚未登入 1:登入中  <br>&nbsp;&nbsp;2:登入完成)<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 帳號狀態<br>(0:尚未登入 1:登入中   2:登入完成)<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountType<br>&nbsp;&nbsp;</td>
@@ -1720,7 +1720,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;PositionEffect<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">&nbsp;&nbsp;0 : Open  Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10<br>&nbsp;&nbsp;: 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖 </td>
+    <td class="tg-0pky">&nbsp;&nbsp;0 : <strong>Open</strong>  Open position <br>&nbsp;&nbsp;1 : <strong> Close</strong>  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 :  <strong>Auto </strong>   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10: 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖 </td>
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;DayTrade<br>&nbsp;&nbsp;</td>
