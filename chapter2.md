@@ -199,18 +199,18 @@ c.解除订阅指令
 </style>
 <table class="tg">
    <tr>
-    <td class="tg-c3ow">Symbol<br>&nbsp;&nbsp;</td>
-   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol</td>
+   <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">&nbsp;&nbsp;合约代码 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow">SubDataType<br>&nbsp;&nbsp;</td>
-  <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">&nbsp;&nbsp;实时行情   (REALTIME)<br>&nbsp;&nbsp;历史ticks  (TICKS)<br>&nbsp;&nbsp;历史1K     (1K)<br>&nbsp;&nbsp;历史日K    (DK)<br>&nbsp;&nbsp;Greeks    (GREEKS) </td>
+    <td class="tg-c3ow">SubDataType</td>
+  <td class="tg-c3ow">BSTR</td>
+    <td class="tg-0pky">&nbsp;&nbsp;实时行情   (REALTIME)历史ticks  (TICKS)历史1K     (1K)历史日K    (DK)Greeks    (GREEKS) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow">StartTime<br>&nbsp;&nbsp;</td>
-  <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">StartTime</td>
+   <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
     <tr>
@@ -784,17 +784,17 @@ TC.F.CFFRX.IF.201903:{
     <tr>
     <td class="tg-c3ow">UnderlyingAsset</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">目标<br>&nbsp;&nbsp;(using GetGreeksString) </td>
+    <td class="tg-0pky">目标(using GetGreeksString) </td>
   </tr>
     <tr>
     <td class="tg-c3ow">VIX1</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">VIX1<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
+    <td class="tg-0pky">VIX1(using GetGreeksValue) </td>
   </tr>
     <tr>
     <td class="tg-c3ow">VIX2</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">VIX2<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
+    <td class="tg-0pky">VIX2(using GetGreeksValue) </td>
   </tr>
     <tr>
     <td class="tg-c3ow">CallOI</td>
@@ -949,12 +949,12 @@ a.回补指令
     <tr>
     <td class="tg-c3ow">SubDataType</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">&nbsp;&nbsp;1实时行情   (REALTIME)<br>&nbsp;&nbsp;2历史ticks  (TICKS)<br>&nbsp;&nbsp;4历史1K     (1K)<br>&nbsp;&nbsp;5历史日K    (DK)<br>&nbsp;&nbsp;6 Greeks    (GREEKS) </td>
+    <td class="tg-0pky">&nbsp;&nbsp;1实时行情   (REALTIME)2历史ticks  (TICKS)4历史1K     (1K)5历史日K    (DK)6 Greeks    (GREEKS) </td>
   </tr>
     <tr>
     <td class="tg-c3ow">StartTime</td>
     <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;YYMMDDHH<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">YYMMDDHH</td>
    </tr>
    <tr>
     <td class="tg-c3ow">EndTime</td>
@@ -963,8 +963,8 @@ a.回补指令
   </tr>
    <tr>
     <td class="tg-c3ow">GreeksType<br></td>
-   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp; </td>
+   <td class="tg-c3ow"><br>BSTR</td>
+    <td class="tg-0pky"> </td>
   </tr>
 </table>
 </center>
