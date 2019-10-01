@@ -1633,3 +1633,290 @@
   }
 }
 ```
+
+<br>
+
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
+</style>
+<table class="tg">
+
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ReportID<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">TCore回報編號 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">帳號 (對應下單與回報欄位) </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;BrokerID<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">券商 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">商品TCore代碼 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Side<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">買賣別 1:Buy 2:Sell <br>&nbsp;&nbsp;(複式單為整體買賣方向) </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;OrderID<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">委託書號 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;OriginalQty<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">new order時候的委託數量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;OrderQty<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">實際委託數量=成交數量+剩餘有效委託口數 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Price<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">委託價格 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;StopPrice<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">停損價 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;OrderType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">0 : None Unknown <br>&nbsp;&nbsp;1 : Market order <br>&nbsp;&nbsp;2 : Limit order <br>&nbsp;&nbsp;3 : Stop order <br>&nbsp;&nbsp;4 : Stop limit order <br>&nbsp;&nbsp;5 : Trailing Stop<br>&nbsp;&nbsp;6 : Trailing StopLimit <br>&nbsp;&nbsp;7 : Market if Touched Order<br>&nbsp;&nbsp;8 : Limit if Touched Order<br>&nbsp;&nbsp;9 : Trailing Limit (TLMT)<br>&nbsp;&nbsp;10 : 對方價(HIT)<br>&nbsp;&nbsp;11 : 本方價(JOIN)<br>&nbsp;&nbsp;12 : DOM-Triggered Stop ( DTS )<br>&nbsp;&nbsp;13 : DOM-Triggered Stop Limit ( DTSL )<br>&nbsp;&nbsp; <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;20 : 最優價 (BST)<br>&nbsp;&nbsp;21 : 最優價轉限價 (BSTL)<br>&nbsp;&nbsp;22 : 五檔市價 (5LvlMKT)<br>&nbsp;&nbsp;23 : 五檔市價轉限價 (5LvlMTL)<br>&nbsp;&nbsp;24 : 市價轉限價 (MTL)<br>&nbsp;&nbsp;25: 一定範圍市價(MWP)<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">證券<br>&nbsp;&nbsp;0:Normal<br>&nbsp;&nbsp;1:融資<br>&nbsp;&nbsp;2.融券 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ExCode<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">證券<br>&nbsp;&nbsp;0:現股<br>&nbsp;&nbsp;1:零股<br>&nbsp;&nbsp;2:盤後 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;PositionEffect<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">0 : Open  Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10<br>&nbsp;&nbsp;: 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;201:鎖券<br>&nbsp;&nbsp;202:解鎖 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;DayTrade<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">0 : None<br>&nbsp;&nbsp;1 : 當沖 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TimeInForce<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC   Immediate or Cancel <br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盤前預約單 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TrailingAmount<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">TrailingAmount(Last, Bid, Ask) </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TouchCondition<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">觸發條件<br>&nbsp;&nbsp;ex. Last &gt;= TouchPrice </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Group<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">格式為Type :<br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;UserKey1<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">對應委託參數的UserKey1欄位資料 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;CumQty<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">已成交數量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;LeavesQty<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">委託剩餘有效量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ExecType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;委託執行狀態<br>&nbsp;&nbsp;-10: 請UI隱藏該筆回報 不要顯示<br>&nbsp;&nbsp; (原預埋單回報 與 送至交易所主推回報<br>&nbsp;&nbsp;無法合單 所以隱藏該筆原預埋單回報)<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;0:委託成功(包含改價改量)<br>&nbsp;&nbsp;1:部份委託成功其餘處理中<br>&nbsp;&nbsp;2:部份委託成功其餘錯誤<br>&nbsp;&nbsp;3:全部成交<br>&nbsp;&nbsp;4:部份成交其餘委託處理中<br>&nbsp;&nbsp;5:部份成交其餘刪單<br>&nbsp;&nbsp;6:部分成交尚有有效單<br>&nbsp;&nbsp;7.部份成交其餘錯誤<br>&nbsp;&nbsp;8:完全刪單成功<br>&nbsp;&nbsp;9.部份刪單成功<br>&nbsp;&nbsp;10:委託失敗<br>&nbsp;&nbsp;11:委託處理中<br>&nbsp;&nbsp;12:刪改單錯誤<br>&nbsp;&nbsp;13:洗價中<br>&nbsp;&nbsp;14:ITS主機已收單(增加中)<br>&nbsp;&nbsp;15:等待中(不可撤單)<br>&nbsp;&nbsp;16:洗價單, 觸價送單<br>&nbsp;&nbsp;17:鎖券成功<br>&nbsp;&nbsp;18:鎖券失敗<br>&nbsp;&nbsp;19:鎖券已提交<br>&nbsp;&nbsp;20:等待中(可撤單)<br>&nbsp;&nbsp;21:下單鎖定 Block<br>&nbsp;&nbsp;22:撤單傳送中<br>&nbsp;&nbsp;23:預約單<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;31:洗價暫停中 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ErrorCode<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18錯誤單時<br>&nbsp;&nbsp;請抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有錯誤<br>&nbsp;&nbsp;若ErrorCode=-777為Undefine<br>&nbsp;&nbsp;Error   錯誤內容 請看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定義如後[12.回報ErrorCode定義] </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TriggeredPrice<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">洗價單 觸發價格 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TransactDate<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">更新日期 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TransactTime<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">更新時間 (UpdateTime) </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;AvgPrice<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">成交均價 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ExecTypeText<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">委託執行狀態描述[server錯誤訊息] </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;FilledOrdersCount<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">成交回報數量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;IsRestoreData<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">&nbsp;&nbsp;0 : 即時回報<br>&nbsp;&nbsp;1 : 回補回報 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;HedgeFlag<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">投机套保标志 <br>&nbsp;&nbsp;(1:投機 2:套利 3:套保 4:備兌) </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;OrgSource<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">下單來源別 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeDate<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">交易日 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;SetPRIADJ<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">履約價調整(中國ETF期權第幾次調整合約履約價) </td>
+  </tr>
+</table>
+</center>
+
+<br>
+
+### 3.DaVinci讯号
+
+```python
+{
+	"DataType":"DavinciSignal",
+  "Data":
+  {
+    "Symbol":"XXX",
+    "Account":"XXX",
+     ...
+  }
+}
+```
+
+<br>
+
+<br>
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
+</style>
+<table class="tg">
+
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">合約 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">帳號 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;ReferenceVolume<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">參考口數 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalScore<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">總評分 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalScoreChange<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">評分變化量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;FloatProfit<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">持倉即時損益 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Inc<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">損益權重分配 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;RiskTake<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">動用風險 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;NewOrderQty<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">下單數量 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalN<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">開放交易的策略總數上限 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;SumChannel<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">商品類別 </td>
+  </tr>
+</table>
+</center>
+
+<br>
+
+### 4.PING
+
+```python
+{
+	"DataType":"PING"
+}
+```
