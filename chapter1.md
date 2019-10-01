@@ -719,6 +719,49 @@
 <br>
 
 ### 8.期货/期权资金查询
+
+#### a.资金查询指令
+
+```python
+{
+  "Request":"MARGINS",
+  "SessionKey":"XXXXXXXXX"
+"AccountMask":"XXXXXXXXX"
+}
+```
+
+<br>
+
+#### b.资金查询回复
+
+```python
+{
+  "Reply":"MARGINS",
+  "Success":"OK",
+  "Margins":
+    [
+      {"BrokerID":"XXX",
+    	"Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+       "BeginningBalance":"XXX",
+       "Commissions":"XXX",
+       ...},
+      {"BrokerID":"XXX",
+       "Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+       "BeginningBalance":"XXX",
+       "Commissions":"XXX",
+       ...}
+   ]   
+}
+```
+注1:并非所有字段都有数据，要视上手提供多少数据。
+
+<br>
+
+<center>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -1125,8 +1168,468 @@
     <td class="tg-0pky">  股票參考市值</td>
   </tr>
 </table>
-  
+  </center>
 
+<br>
 
 ### 9.期货/期权部位查询
+
+#### a.部位查询指令
+
+```python
+{
+  "Request":"POSITIONS",
+  "SessionKey":"XXXXXXXXX",
+	"AccountMask":"XXXXXXXXX",
+	"QryIndex":"n"
+}
+```
+<br>
+
+#### b.资金查询回复
+
+```python
+{
+  "Reply":"POSITIONS",
+  "Success":"OK",
+  "Positions":
+    [
+      {"BrokerID":"XXX",
+    	"Account":"XXX",
+        "TransactDate":"n",
+                "TransactTime":"n",
+                "Quantity":"n",
+                "SumLongQty":"n",
+                "SumShortQty":"n",
+		"QryIndex":"n",
+       ...},
+      {"BrokerID":"XXX",
+       "Account":"XXX",
+       "TransactDate":"n",
+       "TransactTime":"n",
+                "Quantity":"n",
+                "SumLongQty":"n",
+                "SumShortQty":"n",
+		"QryIndex":"n",
+       ...}
+   ]   
+}
+```
+
+<br>
+
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
+</style>
+<table class="tg">
+
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp; BrokerID <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  券商  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BrokerName <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  券商名稱  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Account <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳號  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountName <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳號名稱  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TransactDate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  更新日期 UTC+0  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TransactTime <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  更新時間 UTC+0  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Symbol <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  商品TCore代碼  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Side <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  買賣方向 1Buy 2Sell  (複式單為整體買賣方向)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Quantity <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  淨倉數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  成本均價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OpenPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  開倉價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CurrencyToSystem <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  系統幣別  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Covered <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 備兌倉數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SumLongQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 持倉數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SumShortQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 持倉數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TodayLongQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 今日持倉  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TodayShortQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 今日持倉  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  YdLongQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 昨日持倉  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  YdShortQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 昨日持倉  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongAvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 成本均價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortAvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 成本均價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongOpenPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 開倉均價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortOpenPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 開倉均價  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  WorkingLong <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 委託中數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  WorkingShort <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 委託中數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdBuyQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今買入  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdSellQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今賣出  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdTotalQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今成交  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongFrozen <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 凍结  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortFrozen <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 凍结  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Lock_ExecFrozen <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  鎖券/執行凍结  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongAvailable <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多頭 可平倉量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortAvailable <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空頭 可平倉量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdBuyAvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今買成均  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdSellAvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今賣成均  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TdNetAvgPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今淨成均  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FloatProfitByDate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐日浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FloatProfitByTrade <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐筆浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongFloatProfitByDate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多逐日浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortFloatProfitByDate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空逐日浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongFloatProfitByTrade <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  多逐筆浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortFloatProfitByTrade <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  空逐筆浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CloseProfitByTrade <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐筆對沖平倉盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CloseProfitByDate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐日盯市平倉盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TodayProfit <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  當日盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MarketPrice <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  市值權益  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OpenCost <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  開倉成本  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PositionCost <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  持倉成本  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExchangeRate <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  交易所匯率  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  YdOrgNetQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  當日起始 昨淨倉數量(正負)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  YdOrgLongQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  當日起始 昨多倉數量  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  YdOrgShortQty <br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  當日起始 昨空倉數量</td>
+  </tr>
+</table>
+</center>
+
+<br>
+
 ### 10.PONG  
+
+```python
+{
+  "Request":"PONG",
+  "SessionKey":"XXXXXXXXX"
+}
+回復
+{
+  "Reply":"PONG",
+  	"Success":"OK"
+}
+```
+
+<br>
+
+## 二、Publish-Subscribe
+
+&emsp;&emsp;**cleint 透过 pub/sub 联机，接收资金账号变动及主推回报**
+### 1.资金账号主推
+```python
+{
+	"DataType":"ACCOUNTS",
+    "Accounts":
+  [
+    {
+
+      "BrokerID":"123456",
+      "Account":"XXX",
+      "UserName":"XXX",
+             "AccountName":"XXX",
+       ...
+    },
+    {
+
+      "BrokerID":"123456",
+      "Account":"XXX",
+      "UserName":"XXX",
+             "AccountName":"XXX",
+       ...
+    }
+  ]
+}
+```
+
+<br>
+
+
+
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
+</style>
+<table class="tg">
+
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BrokerID<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;券商 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Account<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;帳號 (對應下單與回報欄位)<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  UserName<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;登入帳號名稱<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountName<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;帳號名稱<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountMask<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;BrokerID-Account<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BrokerName<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;券商名稱<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Status<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;帳號狀態(0:尚未登入 1:登入中  <br>&nbsp;&nbsp;2:登入完成)<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;S/F/O<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OrderExchange<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;可下單交易所<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Level<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;ETF期權, 使用者級別<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountReleated<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;證券/期貨帳號 連結ID<br>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Region<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;1:CN 2:TW 4:OB<br>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+</center>
+
+<br>
+
+### 2.回报主推
+
+```python
+{
+	"DataType":"EXECUTIONREPORT",
+  "Report":
+  {
+    "ReportID":"123456",
+    "Account":"XXX",
+    "BrokerID":"XXX",
+         "Symbol":"XXX",
+         "Side":"n",
+     ...
+  }
+}
+```
