@@ -34,9 +34,9 @@
 }
 ```
 
-注 1: SessionKey，之后所有 Request 指令一律需要带 SessionKey。SessionKey 错误，指令不执行。
+  注 1: SessionKey，之后所有 Request 指令一律需要带 SessionKey。SessionKey 错误，指令不执行。
 
-注 2: SubPort 提供 client 用来建立第二条 ZeroMQ Pub/Sub 联机，用来接收主推回报。
+  注 2: SubPort 提供 client 用来建立第二条 ZeroMQ Pub/Sub 联机，用来接收主推回报。
 
 <br>
 
@@ -105,7 +105,7 @@
 }
  ```
 
- 注1: 资金账号栏位位于后面章节 [资金账号主推](#1资金账号主推) 说明。
+  注1: 资金账号栏位位于后面章节 [资金账号主推](#1资金账号主推) 说明。
 
 <br>
 
@@ -239,7 +239,7 @@
    ]
 }
 ```
-注1: 回报栏位位于后面章节[回报主推](#2回報主推)說明。
+  注1: 回报栏位位于后面章节[回报主推](#2回報主推)說明。
 
 <br>   
 
@@ -273,9 +273,9 @@
   "Success":"OK"
 }
 ```
-注1: 代码一律采用TC代码。
+  注1: 代码一律采用TC代码。
 
-注2: TimeInForce、OrderType、PositionEffect 列出所有可下单形式，请确认上手可支持下单形式，下单时代上正确的type。值接送上手Synthetic="0"，若要TCore洗价Synthetic="1"。
+  注2: TimeInForce、OrderType、PositionEffect 列出所有可下单形式，请确认上手可支持下单形式，下单时代上正确的type。值接送上手Synthetic="0"，若要TCore洗价Synthetic="1"。
 
 <br>
 <center>
@@ -764,7 +764,7 @@
    ]   
 }
 ```
-注1:并非所有字段都有数据，要视上手提供多少数据。
+  注1:并非所有字段都有数据，要视上手提供多少数据。
 
 <br>
 
