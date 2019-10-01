@@ -239,7 +239,7 @@
    ]
 }
 ```
-注1: 回报栏位位于后面章节[回报主推](chapter1.md#2回報主推)說明。
+注1: 回报栏位位于后面章节[回报主推](#2回報主推)說明。
 
 <br>   
 
@@ -361,7 +361,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TrailingType<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> &nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 依價格<br>&nbsp;&nbsp;2 : 依TrailingPrice百分比<br>&nbsp;&nbsp;3<br>&nbsp;&nbsp;: 依TickSize幾跳<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> &nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 依價格<br>&nbsp;&nbsp;2 : 依TrailingPrice百分比<br>&nbsp;&nbsp;3: 依TickSize幾跳<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -440,7 +440,7 @@
     <td class="tg-0pky"><strong>追價</strong>  <br>&nbsp;&nbsp;格式為[每次增加價格|追價幾次|每次追價幾秒|最後下市價或刪單或掛單(M or C or L)|PriceType]<br>&nbsp;&nbsp; <br><strong>限價追價</strong> <br>&nbsp;&nbsp;格式為[0|追價限制幾跳|-11 (Chase<br>&nbsp;&nbsp;Trailing) or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>
   或是[1|追價幾次|-11 (Chase Trailing)<br>&nbsp;&nbsp;or -12 (Chase if touch)|最後下市價或刪單或掛單(M or C or L)|PriceType]<br>&nbsp;&nbsp;
   
-   &nbsp;&nbsp; <strong>a.若 每次增加價格 &lt; 1000 表示幾跳Ticks<br>&nbsp;&nbsp; b.追價幾秒=-11 (Chase<br>&nbsp;&nbsp;Trailing)<br>&nbsp;&nbsp; c.追價幾秒=-12 (Chase if<br>&nbsp;&nbsp;touch) <br>&nbsp;&nbsp; d.Price Type=(LTP, BID, ASK) <br>&nbsp;&nbsp;</strong></td>
+   <strong>&nbsp;&nbsp;a.若 每次增加價格 &lt; 1000 表示幾跳Ticks<br>&nbsp;&nbsp; b.追價幾秒=-11 (Chase Trailing)<br>&nbsp;&nbsp; c.追價幾秒=-12 (Chase if touch) <br>&nbsp;&nbsp; d.Price Type=(LTP, BID, ASK) <br>&nbsp;&nbsp;</strong></td>
     
     
   </tr>
@@ -517,7 +517,7 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;ExtCommands<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 延伸下單參數 多個參數請用<strong>；</strong>隔開<br>&nbsp;&nbsp;1.自動單反向延遲 請帶<br>&nbsp;&nbsp;  DelayTransPosition=3000<br>&nbsp;&nbsp;<strong>表延遲3秒</strong><br>&nbsp;&nbsp;2.下單前 將平倉掛單都刪單<br>&nbsp;&nbsp; CancelCloseWorking=1 or 2<br>&nbsp;&nbsp;3.下單速度是否調慢與設定相同<br>&nbsp;&nbsp; FitOrderFreq=1<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 延伸下單參數 多個參數請用<strong>；</strong>隔開<br>&nbsp;&nbsp;1.自動單反向延遲 請帶<br>&nbsp;&nbsp;  DelayTransPosition=3000, 表延遲3秒<br>&nbsp;&nbsp;2.下單前 將平倉掛單都刪單<br>&nbsp;&nbsp; CancelCloseWorking=1 or 2<br>&nbsp;&nbsp;3.下單速度是否調慢與設定相同<br>&nbsp;&nbsp; FitOrderFreq=1<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -531,14 +531,14 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;NumberOfRetries<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> &nbsp;&nbsp;僅Consecutive=1使用<br>持續送單幾次,<br>&nbsp;&nbsp;NumberOfRetries&gt;=9999 表示無線次數<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> &nbsp;&nbsp;僅Consecutive=1使用, 持續送單幾次,<br>&nbsp;&nbsp;NumberOfRetries&gt;=9999 表示無線次數<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;RetryInterval<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;Strategy 僅Consecutive=1使用<br>每次送單間隔<br>&nbsp;&nbsp;RetryInterval=0表示立即送單<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;Strategy 僅Consecutive=1使用, 每次送單間隔<br>&nbsp;&nbsp;RetryInterval=0表示立即送單<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -580,47 +580,47 @@
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-10<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;Unknow Error<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>Unknow Error<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-11<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;買賣別不對<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>買賣別不對<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-12<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;複式單商品代碼解晰錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>複式單商品代碼解晰錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-13<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;下單帳號, 不可下此交易所商品<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>下單帳號, 不可下此交易所商品<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-14<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;下單錯誤, 不支援的價格 或 OrderType 或 TimeInForce<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>下單錯誤, 不支援的價格 或 OrderType 或 TimeInForce<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-15<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;不支援證券下單<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>不支援證券下單<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-20<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;連線未建立<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>連線未建立<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-22<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;價格的TickSize錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>價格的TickSize錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-23<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;下單數量超過該商品的上下限<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>下單數量超過該商品的上下限<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-24<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;下單數量錯誤<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>下單數量錯誤<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-25<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>&nbsp;&nbsp;價格不能小於和等於0 (市價類型不會去檢查)<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>價格不能小於和等於0 (市價類型不會去檢查)<br>&nbsp;&nbsp;</td>
   </tr>
 </table>
 </center>
