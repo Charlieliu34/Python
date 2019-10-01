@@ -928,7 +928,8 @@ a.回补指令
   }
 }
 ```
-注1:SubDataType使用TICKS or 1Kor DK，且填写StartTime、EndTime，回补历史数据。
+  注1:SubDataType使用TICKS or 1Kor DK，且填写StartTime、EndTime，回补历史数据。
+
 
 <center>
 <style type="text/css">
@@ -940,7 +941,7 @@ a.回补指令
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</th>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">合约代码 </td>
   </tr>
