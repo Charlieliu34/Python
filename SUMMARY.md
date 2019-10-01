@@ -28,5 +28,5 @@
         * [2.Greeks            ](chapter2.md#2greeks             )
         * [3.DaVinci讯号       ](chapter2.md#3davinci讯号        )
         * [4.PING              ](chapter2.md#4ping              )
-     * [三、历史资料取得](chapter2.md#三、历史资料取得)
+    * [三、历史资料取得](chapter2.md#三、历史资料取得)
         * [1.历史资料          ](chapter2.md#1历史资料           )
