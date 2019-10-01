@@ -719,6 +719,414 @@
 <br>
 
 ### 8.期货/期权资金查询
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:center}
+</style>
+<table class="tg">
+
+
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;BrokerID   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  券商 (對應下單與回報欄位)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BrokerName   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  券商名稱  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Account   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳號 (對應下單與回報欄位)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountName   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳號名稱  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;<br>&nbsp;&nbsp;  TransactDate   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  更新日期 UTC+0  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TransactTime   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  更新時間 UTC+0  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BeginningBalance   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  期初結存  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Commissions   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  交易手續費  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FrozenCommission   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  凍結手續費  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExchangeClearinigFee   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  交易所費用與結算費用  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  BrokerageFee   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  經紀商費用  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  GrossPL   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  已實現損益(未扣除費用)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OptionPremium   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  選擇權權利金收入  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CashIn   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  证券买卖当日收支  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  NetPL   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  已實現損益(扣除費用並加上選擇權權利金收入)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Deposit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今日入金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Withdraw   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今日出金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CashActivity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  今日出入金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExcessEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  可用資金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  WithdrawQuota   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  可取資金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  EndingBalance   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  期末結存  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OpenTradeEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  未平倉損益(包含選擇權和期貨)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TotalEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  總權益數  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  OptionNetMarketValue   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  選擇權市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AccountValueAtMarket   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳戶市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  InitialMarginRequirement   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  初始保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MaintenanceMarginRequirement   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  維持保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CurrMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  當前保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MarginDeficit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  追繳保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FrozenMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  凍結保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FrozenCash   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  凍結資金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ReserveBalance   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  保底準備金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Credit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  信用額度  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Mortgage   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  質押金額  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreMortgage   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次質押金額  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreCredit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次信用額度  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreDeposit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次存款額  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次佔用的保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExchangeMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  交易所保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  DeliveryMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  投資者交割保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExchangeDeliveryMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  交易所交割保证金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CurrencyToSystem   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  系統幣別  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CurrencyConversionRate   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  幣別轉換比率(轉換到帳戶幣別使用)  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  CurrencyToClient   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  帳戶幣別  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ConvertedAccountValueAtMkt   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  幣別轉換後帳戶市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ExerciseIncome   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  行權盈虧 到期履約損益　  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  IncomeBalance   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  盈虧金額  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  InterestBase   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  利息基数  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Interest   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  利息收入  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MarginLevel   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  保证金水平 風險指標  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  UPLForOptions   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  未沖銷選擇權浮動損益  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  LongOptionNetMarketValue   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  未沖銷買方選擇權市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ShortOptionNetMarketValue   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  未沖銷賣方選擇權市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FrozenpPremium   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  委託權利金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MarginExcess   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  加收原始保證金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  AdjustedEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  契約調整權益數 加/減項  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreFundMortgageIn   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次货币质入金额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  PreFundMortgageOut   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  上次货币质出金额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FundMortgageIn   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  货币质入金额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FundMortgageOut   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  货币质出金额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FundMortgageAvailable   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  货币质押余额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MortgageableFund   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  可质押货币金额  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品占用保证金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductFrozenMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品冻结保证金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductCommission   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品手续费  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductFrozenCommission   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品冻结手续费  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductPositionProfit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品持仓盈亏  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductCloseProfit   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品平仓盈亏  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductPositionProfitByAlg   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  根据持仓盈亏算法计算的特殊产品持仓盈亏  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  SpecProductExchangeMargin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  特殊产品交易所保证金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FloatProfitByDate   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐日浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FloatProfitByTrade   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  逐筆浮動盈虧  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  FutureProfitByDay   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  期貨當日盈虧   </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  ReferenceRiskRate   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  參考風險度  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  TryExcessEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  試算可用資金  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  DynamicEquity   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  動態權益  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  MarketPremium   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  市值權益  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  Op tionPremiumCoin   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  未沖銷權利金市值  </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><br>&nbsp;&nbsp;  StockReferenceMarket   <br>&nbsp;&nbsp;</td>
+   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky">  股票參考市值</td>
+  </tr>
+</table>
+  
+
 
 ### 9.期货/期权部位查询
 ### 10.PONG  
