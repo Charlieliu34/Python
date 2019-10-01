@@ -201,7 +201,7 @@ c.解除订阅指令
    <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">合约代码 </td>
+    <td class="tg-0pky">&nbsp;&nbsp;合约代码 </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;SubDataType<br>&nbsp;&nbsp;</td>
@@ -211,12 +211,12 @@ c.解除订阅指令
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;StartTime<br>&nbsp;&nbsp;</td>
   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">YYMMDDHH </td>
+    <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;EndTime<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">YYMMDDHH </td>
+    <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
 </table>
 </center>
