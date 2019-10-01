@@ -346,49 +346,49 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;ContingentSymbol<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;追蹤Symbol <br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;追蹤Symbol = 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TrailingField<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : Last<br>&nbsp;&nbsp;2 : Bid<br>&nbsp;&nbsp;3 : Ask<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : Last<br>&nbsp;&nbsp;2 : Bid<br>&nbsp;&nbsp;3 : Ask<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TrailingType<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 依價格<br>&nbsp;&nbsp;2 : 依TrailingPrice百分比<br>&nbsp;&nbsp;3<br>&nbsp;&nbsp;: 依TickSize幾跳<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 依價格<br>&nbsp;&nbsp;2 : 依TrailingPrice百分比<br>&nbsp;&nbsp;3<br>&nbsp;&nbsp;: 依TickSize幾跳<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TrailingAmount<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;TrailingType=1時, TrailingAmount為百分比<br>&nbsp;&nbsp;TrailingType=2時, TrailingAmount為點數<br>&nbsp;&nbsp;TrailingType=3時, TrailingAmount為幾跳<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=5 或 OrderType=6使用<br>&nbsp;&nbsp;TrailingType=1時, TrailingAmount為百分比<br>&nbsp;&nbsp;TrailingType=2時, TrailingAmount為點數<br>&nbsp;&nbsp;TrailingType=3時, TrailingAmount為幾跳<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TouchPrice<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;觸發價<br>&nbsp;&nbsp;or<br>&nbsp;&nbsp;欄位 + or - 價格<br>&nbsp;&nbsp;欄位為固定字, 可為LAST or BID or<br>&nbsp;&nbsp;ASK or FILLED<br>&nbsp;&nbsp;FILLED為OTO, OTOCO使用, 其他單不可使用FILLED<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;觸發價<br>&nbsp;&nbsp;or<br>&nbsp;&nbsp;欄位 + or - 價格<br>&nbsp;&nbsp;欄位為固定字, 可為LAST or BID or<br>&nbsp;&nbsp;ASK or FILLED<br>&nbsp;&nbsp;FILLED為OTO, OTOCO使用, 其他單不可使用FILLED<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TouchField<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=3 或 OrderType=4 或 OrderType=7 或 OrderType=8或OrderType=12 或 OrderType=13使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : Last<br>&nbsp;&nbsp;2 : Bid<br>&nbsp;&nbsp;3 : Ask<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=3 或 OrderType=4 或 OrderType=7 或 OrderType=8或OrderType=12 或 OrderType=13使用<br>&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : Last<br>&nbsp;&nbsp;2 : Bid<br>&nbsp;&nbsp;3 : Ask<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TouchCondition<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic<br>&nbsp;&nbsp;= 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;0 : touch or 穿價<br>&nbsp;&nbsp;1 : Greater<br>&nbsp;&nbsp;2 : GreaterEqual<br>&nbsp;&nbsp;3 : Equl<br>&nbsp;&nbsp;4 : LessEqual<br>&nbsp;&nbsp;5 : Less<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;僅Synthetic = 1<br>&nbsp;&nbsp;OrderType=7 或 OrderType=8使用<br>&nbsp;&nbsp;0 : touch or 穿價<br>&nbsp;&nbsp;1 : Greater<br>&nbsp;&nbsp;2 : GreaterEqual<br>&nbsp;&nbsp;3 : Equl<br>&nbsp;&nbsp;4 : LessEqual<br>&nbsp;&nbsp;5 : Less<br>&nbsp;&nbsp;</td>
     
     
   </tr>
