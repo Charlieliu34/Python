@@ -46,7 +46,7 @@ b.登入回复
 
 <br>
 
-c.注销指令
+c.登出指令
 ```
 {
   "Request":"LOGOUT",
@@ -206,7 +206,7 @@ c.解除订阅指令
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;SubDataType<br>&nbsp;&nbsp;</td>
   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">即時行情   (REALTIME)<br>&nbsp;&nbsp;歷史ticks  (TICKS)<br>&nbsp;&nbsp;歷史1K     (1K)<br>&nbsp;&nbsp;歷史日K    (DK)<br>&nbsp;&nbsp;Greeks    (GREEKS) </td>
+    <td class="tg-0pky">&nbsp;&nbsp;即時行情   (REALTIME)<br>&nbsp;&nbsp;歷史ticks  (TICKS)<br>&nbsp;&nbsp;歷史1K     (1K)<br>&nbsp;&nbsp;歷史日K    (DK)<br>&nbsp;&nbsp;Greeks    (GREEKS) </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;StartTime<br>&nbsp;&nbsp;</td>
@@ -640,7 +640,7 @@ TC.F.CFFRX.IF.201903:{
 <table class="tg">
    <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;TradingHours<br>&nbsp;&nbsp;</th>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;;</td>
+    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">交易時間 </td>
   </tr>
     <tr>
@@ -791,12 +791,12 @@ TC.F.CFFRX.IF.201903:{
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;VIX1<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">VIX1<br>&nbsp;&nbsp;(using<br>&nbsp;&nbsp;GetGreeksValue) </td>
+    <td class="tg-0pky">VIX1<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;VIX2<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">VIX2<br>&nbsp;&nbsp;(using<br>&nbsp;&nbsp;GetGreeksValue) </td>
+    <td class="tg-0pky">VIX2<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;CallOI<br>&nbsp;&nbsp;</td>
@@ -949,7 +949,7 @@ a.回补指令
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;SubDataType<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">1<br>&nbsp;&nbsp;即時行情   (REALTIME)<br>&nbsp;&nbsp;2<br>&nbsp;&nbsp;歷史ticks  (TICKS)<br>&nbsp;&nbsp;4<br>&nbsp;&nbsp;歷史1K     (1K)<br>&nbsp;&nbsp;5<br>&nbsp;&nbsp;歷史日K    (DK)<br>&nbsp;&nbsp;6 Greeks    (GREEKS) </td>
+    <td class="tg-0pky">&nbsp;&nbsp;1即時行情   (REALTIME)<br>&nbsp;&nbsp;2歷史ticks  (TICKS)<br>&nbsp;&nbsp;4歷史1K     (1K)<br>&nbsp;&nbsp;5歷史日K    (DK)<br>&nbsp;&nbsp;6 Greeks    (GREEKS) </td>
   </tr>
     <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;StartTime<br>&nbsp;&nbsp;</td>
@@ -978,7 +978,7 @@ b.回补指令回复
   "Success":"OK"
 }
 ```
-于PUB/SUB联机，收到数据准备完成通知。
+  于PUB/SUB联机，收到数据准备完成通知。
 
 <br>
 
@@ -992,7 +992,7 @@ TC.F.CFFRX.IF.201903:{
   "Status":"Ready"
 }
 ```
-收报数据准备完成通之后，透过REQ/REP联机取得数据
+  收报数据准备完成通之后，透过REQ/REP联机取得数据
 
 <br>
 
@@ -1010,7 +1010,7 @@ d.取得历史资指令
   }
 }
 ```
-注1:SubDataType、StartTime、EndTime，需与回补数据指令相同。
+  注1:SubDataType、StartTime、EndTime，需与回补数据指令相同。
 
 <br>
 
@@ -1066,6 +1066,8 @@ TC.F.CFFRX.IF.201903:{
   ]
 }
 ```
+
+<br>
 
 **IK/DK 资料栏位**
 
