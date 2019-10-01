@@ -1654,178 +1654,178 @@
 <table class="tg">
 
   <tr>
-    <td class="tg-c3ow">ReportID<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ReportID</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">TCore回报编号 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Account</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">账号 (对应下单与回报字段) </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">BrokerID<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BrokerID</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">券商 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">商品TCore代码 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Side<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Side</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">买卖别 1:Buy 2:Sell <br>&nbsp;&nbsp;(复式单为整体买卖方向) </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">OrderID<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OrderID</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">委托书号 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">OriginalQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OriginalQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">new order时候的委托数量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">OrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OrderQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">实际委托数量=成交数量+剩余有效委托口数 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Price<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Price</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">委托价格 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">StopPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">StopPrice</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">停损价 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">OrderType<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OrderType</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;0 : None Unknown <br>&nbsp;&nbsp;1 : Market order <br>&nbsp;&nbsp;2 : Limit order <br>&nbsp;&nbsp;3 : Stop order <br>&nbsp;&nbsp;4 : Stop limit order <br>&nbsp;&nbsp;5 : Trailing Stop<br>&nbsp;&nbsp;6 : Trailing StopLimit <br>&nbsp;&nbsp;7 : Market if Touched Order<br>&nbsp;&nbsp;8 : Limit if Touched Order<br>&nbsp;&nbsp;9 : Trailing Limit (TLMT)<br>&nbsp;&nbsp;10 : 对方价(HIT)<br>&nbsp;&nbsp;11 : 本方价(JOIN)<br>&nbsp;&nbsp;12 : DOM-Triggered Stop ( DTS )<br>&nbsp;&nbsp;13 : DOM-Triggered Stop Limit ( DTSL )<br>&nbsp;&nbsp; <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;20 : 最优价 (BST)<br>&nbsp;&nbsp;21 : 最优价转限价 (BSTL)<br>&nbsp;&nbsp;22 : 五档市价 (5LvlMKT)<br>&nbsp;&nbsp;23 : 五档市价转限价 (5LvlMTL)<br>&nbsp;&nbsp;24 : 市价转限价 (MTL)<br>&nbsp;&nbsp;25: 一定范围市价(MWP)<br>&nbsp;&nbsp;201:锁券<br>&nbsp;&nbsp;202:解锁 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TradeType<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeType</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">证券<br>&nbsp;&nbsp;0:Normal<br>&nbsp;&nbsp;1:融资<br>&nbsp;&nbsp;2.融券 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ExCode<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ExCode</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">证券<br>&nbsp;&nbsp;0:现股<br>&nbsp;&nbsp;1:零股<br>&nbsp;&nbsp;2:盘后 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">PositionEffect<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">PositionEffect</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;0 : <strong>Open</strong>  Open position <br>&nbsp;&nbsp;1 : <strong> Close</strong>  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 :  <strong>Auto </strong>   Auto select<br>&nbsp;&nbsp;Open/Cloe position  <br>&nbsp;&nbsp; <br>&nbsp;&nbsp;10: 备兑开仓<br>&nbsp;&nbsp;11: 备兑平仓<br>&nbsp;&nbsp;201:锁券<br>&nbsp;&nbsp;202:解锁 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">DayTrade<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">DayTrade</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : 当冲 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TimeInForce<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TimeInForce</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC   Immediate or Cancel <br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盘前预约单 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TrailingAmount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TrailingAmount</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">TrailingAmount(Last, Bid, Ask) </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TouchCondition<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TouchCondition</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">触发条件<br>&nbsp;&nbsp;ex. Last &gt;= TouchPrice </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Group<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Group</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">格式为Type :<br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">UserKey1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">UserKey1</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">对应委托参数的UserKey1字段数据 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">CumQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">CumQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">已成交数量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">LeavesQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">LeavesQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">委托剩余有效量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ExecType<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ExecType</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky"><br> 委托执行状态<br>&nbsp;&nbsp;-10: 请UI隐藏该笔回报 不要显示<br>&nbsp;&nbsp; (原预埋单回报 与 送至交易所主推回报<br>&nbsp;&nbsp;无法合单 所以隐藏该笔原预埋单回报)<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;0:委托成功(包含改价改量)<br>&nbsp;&nbsp;1:部份委托成功其余处理中<br>&nbsp;&nbsp;2:部份委托成功其余错误<br>&nbsp;&nbsp;3:全部成交<br>&nbsp;&nbsp;4:部份成交其余委托处理中<br>&nbsp;&nbsp;5:部份成交其余删单<br>&nbsp;&nbsp;6:部分成交尚有有效单<br>&nbsp;&nbsp;7.部份成交其余错误<br>&nbsp;&nbsp;8:完全删单成功<br>&nbsp;&nbsp;9.部份删单成功<br>&nbsp;&nbsp;10:委托失败<br>&nbsp;&nbsp;11:委托处理中<br>&nbsp;&nbsp;12:删改单错误<br>&nbsp;&nbsp;13:洗价中<br>&nbsp;&nbsp;14:ITS主机已收单(增加中)<br>&nbsp;&nbsp;15:等待中(不可撤单)<br>&nbsp;&nbsp;16:洗价单, 触价送单<br>&nbsp;&nbsp;17:锁券成功<br>&nbsp;&nbsp;18:锁券失败<br>&nbsp;&nbsp;19:锁券已提交<br>&nbsp;&nbsp;20:等待中(可撤单)<br>&nbsp;&nbsp;21:下单锁定 Block<br>&nbsp;&nbsp;22:撤单传送中<br>&nbsp;&nbsp;23:预约单<br>&nbsp;&nbsp; <br>&nbsp;&nbsp;31:洗价暂停中 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ErrorCode<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ErrorCode</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18错误单时<br>&nbsp;&nbsp;请抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有错误<br>&nbsp;&nbsp;若ErrorCode=-777为Undefine<br>&nbsp;&nbsp;Error   错误内容 请看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定义如后[12.回报ErrorCode定义] </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TriggeredPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TriggeredPrice</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">洗价单 触发价格 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TransactDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TransactDate</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">更新日期 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TransactTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TransactTime</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">更新时间 (UpdateTime) </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">AvgPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AvgPrice</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">成交均价 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ExecTypeText<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ExecTypeText</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">委托执行状态描述[server错误讯息] </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">FilledOrdersCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FilledOrdersCount</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">成交回报数量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">IsRestoreData<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">IsRestoreData</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">&nbsp;&nbsp;0 : 实时回报<br>&nbsp;&nbsp;1 : 回补回报 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">HedgeFlag<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HedgeFlag</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">投机套保标志 <br>&nbsp;&nbsp;(1:投机 2:套利 3:套保 4:备兑) </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">OrgSource<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OrgSource</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">下单来源别 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TradeDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeDate</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">交易日 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">SetPRIADJ<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SetPRIADJ</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">履约价调整(中国ETF期权第几次调整合约履约价) </td>
   </tr>
 </table>
@@ -1861,58 +1861,58 @@
 <table class="tg">
 
   <tr>
-    <td class="tg-c3ow">Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">合约 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Account</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">账号 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">ReferenceVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ReferenceVolume</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">参考口数 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TotalScore<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalScore</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">总评分 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TotalScoreChange<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalScoreChange</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">评分变化量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">FloatProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FloatProfit</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">持仓实时损益 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">Inc<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Inc</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">损益权重分配 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">RiskTake<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">RiskTake</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">动用风险 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">NewOrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">NewOrderQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">下单数量 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">TotalN<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalN</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">开放交易的策略总数上限 </td>
   </tr>
   <tr>
-    <td class="tg-c3ow">SumChannel<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SumChannel</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">商品类别 </td>
   </tr>
 </table>
