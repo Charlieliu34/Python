@@ -191,7 +191,7 @@ c.解除订阅指令
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-cly1{text-align:left;vertical-align:middle}
 .tg .tg-baqh{text-align:center;vertical-align:top}
 .tg .tg-nrix{text-align:center;vertical-align:middle}
@@ -199,23 +199,23 @@ c.解除订阅指令
 </style>
 <table class="tg">
    <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol<br>&nbsp;&nbsp;</td>
    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">&nbsp;&nbsp;合约代码 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SubDataType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SubDataType<br>&nbsp;&nbsp;</td>
   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">&nbsp;&nbsp;实时行情   (REALTIME)<br>&nbsp;&nbsp;历史ticks  (TICKS)<br>&nbsp;&nbsp;历史1K     (1K)<br>&nbsp;&nbsp;历史日K    (DK)<br>&nbsp;&nbsp;Greeks    (GREEKS) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;StartTime<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">StartTime<br>&nbsp;&nbsp;</td>
   <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;EndTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">EndTime</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
 </table>
@@ -263,348 +263,348 @@ TC.F.CFFRX.IF.201903:{
 </style>
 <table class="tg">
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</th>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">合约代码 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeDate</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">交易日期 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;FilledTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FilledTime</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">成交时间 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradingPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradingPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">成交价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeQuantity<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeQuantity</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">成交单量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Change<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Change</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">涨跌 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">累计成交量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;OpeningPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OpeningPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">开盘价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HighPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HighPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">当日最高价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;LowPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">LowPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">当日最低价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;ClosingPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ClosingPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">收盘价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;ReferencePrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ReferencePrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">参考价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;UpperLimitPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">UpperLimitPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">涨停价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;LowerLimitPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">LowerLimitPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">跌停价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;YClosedPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">YClosedPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">昨收 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;YTradeVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">YTradeVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">昨量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;OpenInterest<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OpenInterest</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">今日未平仓量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;YOpenInterest<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">YOpenInterest</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">昨日未平仓量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;FlagOfBuySell<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FlagOfBuySell</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">内外盘 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;OpenTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OpenTime</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">开盘时间 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;CloseTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">CloseTime</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">收盘时间 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#1 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid1</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#2 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid2<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid2</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#3 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid3<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid3</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#4 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid4<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid4</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#5 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid5<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid5</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#6 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid6<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid6</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#7 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid7<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid7</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#8 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid8<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid8</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#9 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid9<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid9</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价#10 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#1 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume1</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#2 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume2<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume2</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#3 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume3<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume3</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#4 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume4<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume4</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#5 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume5<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume5</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#6 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume6<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume6</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#7 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume7<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume7</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#8 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume8<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume8</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#9 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BidVolume9<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BidVolume9</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买量#10 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#1 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask1</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#2 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask2<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask2</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#3 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask3<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask3</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#4 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask4<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask4</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#5 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask5<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask5</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#6 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask6<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask6</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#7 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask7<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask7</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#8 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask8<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask8</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#9 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask9<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask9</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价#10 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#1 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume1</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#2 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume2<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume2</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#3 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume3<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume3</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#4 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume4<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume4</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#5 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume5<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume5</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#6 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume6<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume6</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#7 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume7<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume7</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#8 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume8<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume8</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#9 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;AskVolume9<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">AskVolume9</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖量#10 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalBidCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalBidCount</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">委托买进总笔数 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalBidVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalBidVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">委托买进总数量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalAskCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalAskCount</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">委托卖出总笔数 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalAskVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalAskVolume</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">委托卖出总数量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BuyCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BuyCount</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">累进买进成交笔数 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SellCount<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SellCount</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">累进卖出成交笔数 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SettlementPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SettlementPrice</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">结算价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;EndDate<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">EndDate</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">到期日 </td>
   </tr>
 </table>
@@ -637,183 +637,183 @@ TC.F.CFFRX.IF.201903:{
 </style>
 <table class="tg">
    <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradingHours<br>&nbsp;&nbsp;</th>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradingHours</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">交易时间 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradingDay<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradingDay</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">交易日 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Last<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Last</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">最新价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Vol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Vol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">合约交易量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">买价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">卖价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;ImpVol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ImpVol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">IV </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;BIV<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">BIV</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">BIV </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SIV<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SIV</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">SIV </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Delta<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Delta</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Delta </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Gamma<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Gamma</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Gamma </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Vega<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Vega</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Vega </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Theta<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Theta</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Theta </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Rho<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Rho</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Rho </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TheoVal<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TheoVal</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">理论价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;ExtVal<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ExtVal</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">时间价值 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Margin<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Margin</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">保证金 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;OI<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">OI</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">未平仓量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;PreOI<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">PreOI</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">昨日未平仓量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;IntVal<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">IntVal</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">内含价值 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;PreImpVol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">PreImpVol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">昨日IV </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;VIX<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">VIX</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">VIX值 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;UndVol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">UndVol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">目标交易量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;UndOI<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">UndOI</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">目标未平仓量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HV_W4<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HV_W4</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">HV-w4 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HV_W8<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HV_W8</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">HV-w8 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HV_W13<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HV_W13</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">HV-w13 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HV_W26<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HV_W26</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">HV-w26 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;HV_W52<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">HV_W52</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">HV-w52 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;UnderlyingAsset<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">UnderlyingAsset</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">目标<br>&nbsp;&nbsp;(using GetGreeksString) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;VIX1<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">VIX1</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">VIX1<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;VIX2<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">VIX2</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">VIX2<br>&nbsp;&nbsp;(using GetGreeksValue) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;CallOI<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">CallOI</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Call的未平仓量 (using GetGreeksValue) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;CallVol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">CallVol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Call的交易量 (using GetGreeksValue) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;PutOI<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">PutOI</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Put的未平仓量 (using GetGreeksValue) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;PutVol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">PutVol</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">Put的交易量 (using GetGreeksValue) </td>
   </tr>
 </table>
@@ -844,58 +844,58 @@ TC.F.CFFRX.IF.201903:{
 </style>
 <table class="tg">
   <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Symbol</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">合约 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Account<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Account</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">账号 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;ReferenceVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">ReferenceVolume</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">参考口数 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalScore<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalScore</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">总评分 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalScoreChange<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalScoreChange</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">评分变化量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;FloatProfit<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FloatProfit</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">持仓实时损益 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Inc<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Inc</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">损益权重分配 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;RiskTake<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">RiskTake</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">动用风险 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;NewOrderQty<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">NewOrderQty</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">下单数量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TotalN<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TotalN</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">开放交易的策略总数上限 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SumChannel<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>string<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SumChannel</td>
+    <td class="tg-c3ow">string</td>
     <td class="tg-0pky">商品类别 </td>
   </tr>
 </table>
@@ -942,27 +942,27 @@ a.回补指令
 </style>
 <table class="tg">
   <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Symbol<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">合约代码 </td>
+    <td class="tg-c3ow">Symbol</td>
+    <td class="tg-c3ow">BSTR</td>
+    <td class="tg-0pky">&nbsp;&nbsp;合约代码 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;SubDataType<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">SubDataType</td>
+    <td class="tg-c3ow">BSTR</td>
     <td class="tg-0pky">&nbsp;&nbsp;1实时行情   (REALTIME)<br>&nbsp;&nbsp;2历史ticks  (TICKS)<br>&nbsp;&nbsp;4历史1K     (1K)<br>&nbsp;&nbsp;5历史日K    (DK)<br>&nbsp;&nbsp;6 Greeks    (GREEKS) </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;StartTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">YYMMDDHH<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">StartTime</td>
+    <td class="tg-c3ow">BSTR</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;YYMMDDHH<br>&nbsp;&nbsp;</td>
    </tr>
    <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;EndTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky">YYMMDDHH </td>
+    <td class="tg-c3ow">EndTime</td>
+    <td class="tg-c3ow">BSTR</td>
+    <td class="tg-0pky">&nbsp;&nbsp;YYMMDDHH </td>
   </tr>
    <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;GreeksType<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">GreeksType<br></td>
    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
     <td class="tg-0pky"><br>&nbsp;&nbsp; </td>
   </tr>
@@ -1080,9 +1080,9 @@ TC.F.CFFRX.IF.201903:{
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-c3ow">  Date  </th>
-    <th class="tg-c3ow">BSTR  </th>
-    <th class="tg-0pky">日期</th>
+    <td class="tg-c3ow">  Date  </td>
+    <td class="tg-c3ow">BSTR  </td>
+    <td class="tg-0pky">日期</td>
   </tr>
   <tr>
     <td class="tg-c3ow">  Time  </td>
@@ -1156,38 +1156,38 @@ TC.F.CFFRX.IF.201903:{
 </style>
 <table class="tg">
    <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Date<br>&nbsp;&nbsp;</th>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Date</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">日期 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;FilledTime<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">FilledTime</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">成交时间 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Bid<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Bid</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">买价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;Ask<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">Ask</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">卖价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradingPrice<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradingPrice</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">成交价 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeQuantity<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeQuantity</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">成交单量 </td>
   </tr>
     <tr>
-    <td class="tg-c3ow"><br>&nbsp;&nbsp;TradeVolume<br>&nbsp;&nbsp;</td>
-    <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
+    <td class="tg-c3ow">TradeVolume</td>
+    <td class="tg-c3ow">BSTR  </td>
     <td class="tg-0pky">总量 </td>
   </tr>
 </table>
