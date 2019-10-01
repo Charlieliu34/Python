@@ -402,14 +402,15 @@
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;PositionEffect<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 0 : Open  Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select Open/Cloe position  <br>&nbsp;&nbsp;5 : 特殊自動單 有昨倉先平昨 其它一律轉開倉<br>&nbsp;&nbsp;10 : 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp 0 :  <font : strong> Open</font>   
+    Open position <br>&nbsp;&nbsp;1 : Close  Close position <br>&nbsp;&nbsp;2 : 平今<br>&nbsp;&nbsp;3 : 平昨<br>&nbsp;&nbsp;4 : Auto   Auto select Open/Cloe position  <br>&nbsp;&nbsp;5 : 特殊自動單 有昨倉先平昨 其它一律轉開倉<br>&nbsp;&nbsp;10 : 備兌開倉<br>&nbsp;&nbsp;11: 備兌平倉<br>&nbsp;&nbsp;</td>
     
     
   </tr>
   <tr>
     <td class="tg-c3ow"><br>&nbsp;&nbsp;DayTrade<br>&nbsp;&nbsp;</td>
     <td class="tg-c3ow"><br>BSTR<br>&nbsp;&nbsp;</td>
-    <td class="tg-0pky"><br> 0 : None<br>&nbsp;&nbsp;1 : 當沖<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp 0 : None<br>&nbsp;&nbsp;1 : 當沖<br>&nbsp;&nbsp;</td>
     
     
   </tr>
