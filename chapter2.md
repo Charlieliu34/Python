@@ -207,7 +207,7 @@
     <tr>
     <td class="tg-c3ow">SubDataType</td>
   <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">&nbsp;&nbsp;实时行情   (REALTIME)历史ticks  (TICKS)历史1K     (1K)历史日K    (DK)Greeks    (GREEKS) </td>
+    <td class="tg-0pky">实时行情  (REALTIME)<br> 历史ticks  (TICKS)<br> 历史1K     (1K)<br> 历史日K    (DK)<br> Greeks    (GREEKS) </td>
   </tr>
     <tr>
     <td class="tg-c3ow">StartTime</td>
