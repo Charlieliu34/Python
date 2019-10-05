@@ -1518,7 +1518,7 @@
 
 ## 二、Publish-Subscribe
 
-&emsp;&emsp;**cleint 透过 pub/sub 联机，接收资金账号变动及主推回报**
+&emsp;&emsp;**client 透过 pub/sub 联机，接收资金账号变动及主推回报**
 ### 1.资金账号主推
 ```python
 {
@@ -1746,7 +1746,7 @@
   <tr>
     <td class="tg-c3ow">Group</td>
     <td class="tg-c3ow">string</td>
-    <td class="tg-0pky">格式为Type :<br>&nbsp;&nbsp;GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO </td>
+    <td class="tg-0pky">格式为Type :GroupID<br>&nbsp;&nbsp;Type = Normal, OCO, OTO, OTOCO </td>
   </tr>
   <tr>
     <td class="tg-c3ow">UserKey1</td>
@@ -1771,7 +1771,7 @@
   <tr>
     <td class="tg-c3ow">ErrorCode</td>
     <td class="tg-c3ow">string</td>
-    <td class="tg-0pky">&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18错误单时<br>&nbsp;&nbsp;请抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有错误<br>&nbsp;&nbsp;若ErrorCode=-777为Undefine<br>&nbsp;&nbsp;Error   错误内容 请看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定义如后[12.回报ErrorCode定义] </td>
+    <td class="tg-0pky">&nbsp;&nbsp;ExecType=10 or ExecType=12 or<br>&nbsp;&nbsp;ExecType=18错误单时，请抓取ErrorCode<br>&nbsp;&nbsp;ErrorCode&lt;0 表示有错误<br>&nbsp;&nbsp;若ErrorCode=-777为Undefine<br>&nbsp;&nbsp;Error   错误内容 请看ExecTypeText<br>&nbsp;&nbsp;其他ErrorCode定义如后[12.回报ErrorCode定义] </td>
   </tr>
   <tr>
     <td class="tg-c3ow">TriggeredPrice</td>
