@@ -238,7 +238,7 @@
 <br>
 
 ## 二、Publish-Subscribe
-&emsp;&emsp;**cleint 透过 pub/sub 联机，接收主推行情**
+&emsp;&emsp;**client 透过 pub/sub 联机，接收主推行情**
 
 ### 1.实时行情
 ```
