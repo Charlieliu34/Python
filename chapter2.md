@@ -1,10 +1,10 @@
 # 贰、行情
 ## 一、Request-Reply
-&emsp;&emsp;**cleint 发送 Request，等待 Server 回复 Reply。client 透过此联机登入即发送订阅报价指令。**
+&emsp;&emsp;**client 发送 Request，等待 Server 回复 Reply。client 透过此联机登入即发送订阅报价指令。**
 
 ### 1.账号登入
 
-a.登入指令
+#### a.登入指令
 ```
 {
   "Request":"LOGIN",
@@ -18,7 +18,7 @@ a.登入指令
 
 <br>
 
-b.登入回复
+#### b.登入回复
 - 登入验证成功 
 ```
 {
@@ -46,7 +46,7 @@ b.登入回复
 
 <br>
 
-c.注销指令
+#### c.注销指令
 ```
 {
   "Request":"LOGOUT",
@@ -56,7 +56,7 @@ c.注销指令
 <br>
 
 ### 2.全部合约查询
-a.全部合约查询
+#### a.全部合约查询
 ```
 {
   "Request":"QUERYALLINSTRUMENT",
@@ -67,7 +67,8 @@ a.全部合约查询
  **Type:Future or Options or Stock**
 
  <br>
-b.全部合约回复
+
+#### b.全部合约回复
 
 ```
 {
@@ -117,7 +118,7 @@ b.全部合约回复
 
 ### 3.商品交易设定查询
 
-a.商品交易设定查询
+#### a.商品交易设定查询
 ```
 {
   "Request":"QUERYINSTRUMENTINFO",
@@ -128,7 +129,7 @@ a.商品交易设定查询
 
 <br>
 
-b.商品交易设定回复
+#### b.商品交易设定回复
 ```
 {
   "Reply":"QUERYINSTRUMENTINFO",
@@ -144,7 +145,7 @@ b.商品交易设定回复
 
 ### 4.订阅报价
 
-a.订阅指令
+#### a.订阅指令
 ```
 {
   "Request":"SUBQUOTE",
@@ -160,7 +161,7 @@ a.订阅指令
 
 <br>
 
-b.订阅回复
+#### b.订阅回复
 ```
 {
   "Reply":"SUBQUOTE",
@@ -170,7 +171,7 @@ b.订阅回复
 
 <br>
 
-c.解除订阅指令
+#### c.解除订阅指令
 ```
 {
   "Request":"UNSUBQUOTE",
@@ -915,7 +916,7 @@ TC.F.CFFRX.IF.201903:{
 
 ### 1.历史资料
 
-a.回补指令
+#### a.回补指令
 ```
 {
   "Request":"SUBQUOTE",
@@ -971,7 +972,7 @@ a.回补指令
 
 <br>
 
-b.回补指令回复
+#### b.回补指令回复
 ```
 {
   "Reply":"SUBQUOTE",
@@ -982,7 +983,7 @@ b.回补指令回复
 
 <br>
 
-C.订阅回复
+#### c.订阅回复
 ```
 TC.F.CFFRX.IF.201903:{
   "DataType":"1K",
@@ -996,7 +997,7 @@ TC.F.CFFRX.IF.201903:{
 
 <br>
 
-d.取得历史资指令
+#### d.取得历史资指令
 ```
 {
   "Request":"GETHISDATA",
@@ -1014,7 +1015,7 @@ d.取得历史资指令
 
 <br>
 
-d.取得历史资料返回结果
+#### d.取得历史资料返回结果
 ```
 TC.F.CFFRX.IF.201903:{
   "DataType":"1K",
@@ -1040,7 +1041,7 @@ TC.F.CFFRX.IF.201903:{
 }
 ```
 
-e.取得历史资料返回结果
+#### e.取得历史资料返回结果
 ```
 TC.F.CFFRX.IF.201903:{
   "DataType":"1K",

@@ -596,9 +596,9 @@
                                 
                                 <h1 id="&#x8D30;&#x3001;&#x884C;&#x60C5;">&#x8D30;&#x3001;&#x884C;&#x60C5;</h1>
 <h2 id="&#x4E00;&#x3001;request-reply">&#x4E00;&#x3001;Request-Reply</h2>
-<p>&#x2003;&#x2003;<strong>cleint &#x53D1;&#x9001; Request&#xFF0C;&#x7B49;&#x5F85; Server &#x56DE;&#x590D; Reply&#x3002;client &#x900F;&#x8FC7;&#x6B64;&#x8054;&#x673A;&#x767B;&#x5165;&#x5373;&#x53D1;&#x9001;&#x8BA2;&#x9605;&#x62A5;&#x4EF7;&#x6307;&#x4EE4;&#x3002;</strong></p>
+<p>&#x2003;&#x2003;<strong>client &#x53D1;&#x9001; Request&#xFF0C;&#x7B49;&#x5F85; Server &#x56DE;&#x590D; Reply&#x3002;client &#x900F;&#x8FC7;&#x6B64;&#x8054;&#x673A;&#x767B;&#x5165;&#x5373;&#x53D1;&#x9001;&#x8BA2;&#x9605;&#x62A5;&#x4EF7;&#x6307;&#x4EE4;&#x3002;</strong></p>
 <h3 id="1&#x8D26;&#x53F7;&#x767B;&#x5165;">1.&#x8D26;&#x53F7;&#x767B;&#x5165;</h3>
-<p>a.&#x767B;&#x5165;&#x6307;&#x4EE4;</p>
+<h4 id="a&#x767B;&#x5165;&#x6307;&#x4EE4;">a.&#x767B;&#x5165;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;LOGIN&quot;,
   &quot;Param&quot;:
@@ -608,7 +608,7 @@
   }
 }
 </code></pre><p><br></p>
-<p>b.&#x767B;&#x5165;&#x56DE;&#x590D;</p>
+<h4 id="b&#x767B;&#x5165;&#x56DE;&#x590D;">b.&#x767B;&#x5165;&#x56DE;&#x590D;</h4>
 <ul>
 <li>&#x767B;&#x5165;&#x9A8C;&#x8BC1;&#x6210;&#x529F; <pre><code>{
 &quot;Reply&quot;:&quot;LOGIN&quot;,
@@ -630,21 +630,21 @@
 </code></pre></li>
 </ul>
 <p><br></p>
-<p>c.&#x6CE8;&#x9500;&#x6307;&#x4EE4;</p>
+<h4 id="c&#x6CE8;&#x9500;&#x6307;&#x4EE4;">c.&#x6CE8;&#x9500;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;LOGOUT&quot;,
 }
 </code></pre><p><br></p>
 <h3 id="2&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;">2.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;</h3>
-<p>a.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;</p>
+<h4 id="a&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;">a.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x67E5;&#x8BE2;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;QUERYALLINSTRUMENT&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
   &quot;Type&quot;:&quot;Future&quot;
 }
 </code></pre><p> <strong>Type:Future or Options or Stock</strong></p>
-<p> <br>
-b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
+<p> <br></p>
+<h4 id="b&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;">b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</h4>
 <pre><code>{
   &quot;Reply&quot;:&quot;QUERYALLINSTRUMENT&quot;,
   &quot;Success&quot;:&quot;OK&quot;,
@@ -688,14 +688,14 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 }
 </code></pre><p><br></p>
 <h3 id="3&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;">3.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;</h3>
-<p>a.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;</p>
+<h4 id="a&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;">a.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x67E5;&#x8BE2;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;QUERYINSTRUMENTINFO&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
   &quot;Symbol&quot;:&quot;TC.F.CFFEX.IF.201903&quot;
 }
 </code></pre><p><br></p>
-<p>b.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x56DE;&#x590D;</p>
+<h4 id="b&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x56DE;&#x590D;">b.&#x5546;&#x54C1;&#x4EA4;&#x6613;&#x8BBE;&#x5B9A;&#x56DE;&#x590D;</h4>
 <pre><code>{
   &quot;Reply&quot;:&quot;QUERYINSTRUMENTINFO&quot;,
   &quot;Success&quot;:&quot;OK&quot;,
@@ -706,7 +706,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 }
 </code></pre><p><br></p>
 <h3 id="4&#x8BA2;&#x9605;&#x62A5;&#x4EF7;">4.&#x8BA2;&#x9605;&#x62A5;&#x4EF7;</h3>
-<p>a.&#x8BA2;&#x9605;&#x6307;&#x4EE4;</p>
+<h4 id="a&#x8BA2;&#x9605;&#x6307;&#x4EE4;">a.&#x8BA2;&#x9605;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;SUBQUOTE&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
@@ -718,13 +718,13 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
   }
 }
 </code></pre><p><br></p>
-<p>b.&#x8BA2;&#x9605;&#x56DE;&#x590D;</p>
+<h4 id="b&#x8BA2;&#x9605;&#x56DE;&#x590D;">b.&#x8BA2;&#x9605;&#x56DE;&#x590D;</h4>
 <pre><code>{
   &quot;Reply&quot;:&quot;SUBQUOTE&quot;,
   &quot;Success&quot;:&quot;OK&quot;
 }
 </code></pre><p><br></p>
-<p>c.&#x89E3;&#x9664;&#x8BA2;&#x9605;&#x6307;&#x4EE4;</p>
+<h4 id="c&#x89E3;&#x9664;&#x8BA2;&#x9605;&#x6307;&#x4EE4;">c.&#x89E3;&#x9664;&#x8BA2;&#x9605;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;UNSUBQUOTE&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
@@ -1442,7 +1442,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 </code></pre><h2 id="&#x4E09;&#x3001;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x53D6;&#x5F97;">&#x4E09;&#x3001;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x53D6;&#x5F97;</h2>
 <p>&#x2003;&#x2003;<strong>&#x4F7F;&#x7528; REQ/REP &#x8054;&#x673A;&#xFF0C;&#x56DE;&#x8865;&#x5386;&#x53F2;&#x6570;&#x636E;</strong></p>
 <h3 id="1&#x5386;&#x53F2;&#x8D44;&#x6599;">1.&#x5386;&#x53F2;&#x8D44;&#x6599;</h3>
-<p>a.&#x56DE;&#x8865;&#x6307;&#x4EE4;</p>
+<h4 id="a&#x56DE;&#x8865;&#x6307;&#x4EE4;">a.&#x56DE;&#x8865;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;SUBQUOTE&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;
@@ -1493,14 +1493,14 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 </center>
 
 <p><br></p>
-<p>b.&#x56DE;&#x8865;&#x6307;&#x4EE4;&#x56DE;&#x590D;</p>
+<h4 id="b&#x56DE;&#x8865;&#x6307;&#x4EE4;&#x56DE;&#x590D;">b.&#x56DE;&#x8865;&#x6307;&#x4EE4;&#x56DE;&#x590D;</h4>
 <pre><code>{
   &quot;Reply&quot;:&quot;SUBQUOTE&quot;,
   &quot;Success&quot;:&quot;OK&quot;
 }
 </code></pre><p>  &#x4E8E;PUB/SUB&#x8054;&#x673A;&#xFF0C;&#x6536;&#x5230;&#x6570;&#x636E;&#x51C6;&#x5907;&#x5B8C;&#x6210;&#x901A;&#x77E5;&#x3002;</p>
 <p><br></p>
-<p>C.&#x8BA2;&#x9605;&#x56DE;&#x590D;</p>
+<h4 id="c&#x8BA2;&#x9605;&#x56DE;&#x590D;">c.&#x8BA2;&#x9605;&#x56DE;&#x590D;</h4>
 <pre><code>TC.F.CFFRX.IF.201903:{
   &quot;DataType&quot;:&quot;1K&quot;,
   &quot;StartTime&quot;:&quot;YYMMDDHH&quot;,
@@ -1510,7 +1510,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 }
 </code></pre><p>  &#x6536;&#x62A5;&#x6570;&#x636E;&#x51C6;&#x5907;&#x5B8C;&#x6210;&#x901A;&#x4E4B;&#x540E;&#xFF0C;&#x900F;&#x8FC7;REQ/REP&#x8054;&#x673A;&#x53D6;&#x5F97;&#x6570;&#x636E;</p>
 <p><br></p>
-<p>d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6307;&#x4EE4;</p>
+<h4 id="d&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6307;&#x4EE4;">d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6307;&#x4EE4;</h4>
 <pre><code>{
   &quot;Request&quot;:&quot;GETHISDATA&quot;,
   &quot;SessionKey&quot;:&quot;XXXXXXXXX&quot;,
@@ -1524,7 +1524,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
 }
 </code></pre><p>  &#x6CE8;1:SubDataType&#x3001;StartTime&#x3001;EndTime&#xFF0C;&#x9700;&#x4E0E;&#x56DE;&#x8865;&#x6570;&#x636E;&#x6307;&#x4EE4;&#x76F8;&#x540C;&#x3002;</p>
 <p><br></p>
-<p>d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;</p>
+<h4 id="d&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;">d.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;</h4>
 <pre><code>TC.F.CFFRX.IF.201903:{
   &quot;DataType&quot;:&quot;1K&quot;,
   &quot;HisData&quot;:
@@ -1547,7 +1547,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
      }
   ]
 }
-</code></pre><p>e.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;</p>
+</code></pre><h4 id="e&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;">e.&#x53D6;&#x5F97;&#x5386;&#x53F2;&#x8D44;&#x6599;&#x8FD4;&#x56DE;&#x7ED3;&#x679C;</h4>
 <pre><code>TC.F.CFFRX.IF.201903:{
   &quot;DataType&quot;:&quot;1K&quot;,
   &quot;HisData&quot;:
@@ -1736,7 +1736,7 @@ b.&#x5168;&#x90E8;&#x5408;&#x7EA6;&#x56DE;&#x590D;</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"贰、行情","level":"1.3","depth":1,"next":{"title":"一、Request-Reply","level":"1.3.1","depth":2,"anchor":"#一、request-reply","path":"chapter2.md","ref":"chapter2.md#一、request-reply","articles":[{"title":"1.账号登入          ","level":"1.3.1.1","depth":3,"anchor":"#1账号登入","path":"chapter2.md","ref":"chapter2.md#1账号登入","articles":[]},{"title":"2.全部合约查询      ","level":"1.3.1.2","depth":3,"anchor":"#2全部合约查询","path":"chapter2.md","ref":"chapter2.md#2全部合约查询","articles":[]},{"title":"3.商品交易设定查询  ","level":"1.3.1.3","depth":3,"anchor":"#3商品交易设定查询","path":"chapter2.md","ref":"chapter2.md#3商品交易设定查询","articles":[]},{"title":"4.订阅报价          ","level":"1.3.1.4","depth":3,"anchor":"#4订阅报价","path":"chapter2.md","ref":"chapter2.md#4订阅报价","articles":[]},{"title":"5.PONG              ","level":"1.3.1.5","depth":3,"anchor":"#5pong","path":"chapter2.md","ref":"chapter2.md#5pong","articles":[]}]},"previous":{"title":"4.PING              ","level":"1.2.2.4","depth":3,"anchor":"#4ping","path":"chapter1.md","ref":"chapter1.md#4ping","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2.md","mtime":"2019-10-01T18:02:29.171Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-05T04:16:47.607Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"贰、行情","level":"1.3","depth":1,"next":{"title":"一、Request-Reply","level":"1.3.1","depth":2,"anchor":"#一、request-reply","path":"chapter2.md","ref":"chapter2.md#一、request-reply","articles":[{"title":"1.账号登入          ","level":"1.3.1.1","depth":3,"anchor":"#1账号登入","path":"chapter2.md","ref":"chapter2.md#1账号登入","articles":[]},{"title":"2.全部合约查询      ","level":"1.3.1.2","depth":3,"anchor":"#2全部合约查询","path":"chapter2.md","ref":"chapter2.md#2全部合约查询","articles":[]},{"title":"3.商品交易设定查询  ","level":"1.3.1.3","depth":3,"anchor":"#3商品交易设定查询","path":"chapter2.md","ref":"chapter2.md#3商品交易设定查询","articles":[]},{"title":"4.订阅报价          ","level":"1.3.1.4","depth":3,"anchor":"#4订阅报价","path":"chapter2.md","ref":"chapter2.md#4订阅报价","articles":[]},{"title":"5.PONG              ","level":"1.3.1.5","depth":3,"anchor":"#5pong","path":"chapter2.md","ref":"chapter2.md#5pong","articles":[]}]},"previous":{"title":"4.PING              ","level":"1.2.2.4","depth":3,"anchor":"#4ping","path":"chapter1.md","ref":"chapter1.md#4ping","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"chapter2.md","mtime":"2019-10-05T05:55:31.818Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-05T05:55:43.357Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
