@@ -468,7 +468,7 @@
   <tr>
     <td class="tg-c3ow">Interval</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;SlicedType =2 : 间隔时间<br>&nbsp;&nbsp;SlicedType =3 : 间隔成交量<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;SlicedType =2 : 间隔时间(ms)<br>&nbsp;&nbsp;SlicedType =3 : 间隔成交量<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -489,7 +489,7 @@
   <tr>
     <td class="tg-c3ow">SlicedTicks</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br>&nbsp;&nbsp;SlicedPriceField= 0<br>&nbsp;&nbsp;TickSize几跳<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br>&nbsp;&nbsp;SlicedPriceField!= 0<br>&nbsp;&nbsp;TickSize几跳<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -517,7 +517,7 @@
   <tr>
     <td class="tg-c3ow">ExtCommands</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br> 延伸下单参数 多个参数请用<strong>；</strong>隔开<br>&nbsp;&nbsp;1.自动单反向延迟 请带<br>&nbsp;&nbsp;  DelayTransPosition=3000, 表延迟3秒<br>&nbsp;&nbsp;2.下单前 将平仓挂单都删单<br>&nbsp;&nbsp; CancelCloseWorking=1 or 2<br>&nbsp;&nbsp;3.下单速度是否调慢与设定相同<br>&nbsp;&nbsp; FitOrderFreq=1<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> 延伸下单参数 多个参数请用<strong>；</strong>隔开<br>&nbsp;&nbsp;1.自动单反向延迟 请代入<br>&nbsp;&nbsp;  DelayTransPosition=3000, 表延迟3秒<br>&nbsp;&nbsp;2.下单前 将平仓挂单都删单<br>&nbsp;&nbsp; CancelCloseWorking=1 or 2<br>&nbsp;&nbsp;3.下单速度是否调慢与设定相同<br>&nbsp;&nbsp; FitOrderFreq=1<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -531,7 +531,7 @@
   <tr>
     <td class="tg-c3ow">NumberOfRetries</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br> &nbsp;&nbsp;仅Consecutive=1使用, 持续送单几次,<br>&nbsp;&nbsp;NumberOfRetries&gt;=9999 表示无线次数<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> &nbsp;&nbsp;仅Consecutive=1使用, 持续送单几次,<br>&nbsp;&nbsp;NumberOfRetries&gt;=9999 表示无限次数<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -552,7 +552,7 @@
   <tr>
     <td class="tg-c3ow">UserKey1</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br> &nbsp;&nbsp;将可在回报的UserKey1字段得到相同的字符串<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> &nbsp;&nbsp;将可在回报的UserKey1字段得到相同的字串<br>&nbsp;&nbsp;</td>
     
 </table>
 </center>
@@ -588,7 +588,7 @@
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-12<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>复式单商品代码解晰错误<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>复式单商品代码解析错误<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-13<br>&nbsp;&nbsp;</td>
@@ -604,7 +604,7 @@
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-20<br>&nbsp;&nbsp;</td>
-    <td class="tg-0lax"><br>联机未建立<br>&nbsp;&nbsp;</td>
+    <td class="tg-0lax"><br>联线未建立<br>&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td class="tg-baqh"><br>&nbsp;&nbsp;-22<br>&nbsp;&nbsp;</td>
@@ -713,12 +713,12 @@
   <tr>
     <td class="tg-c3ow">  Price  </td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">  用户期望的委托价格  </td>
+    <td class="tg-0pky">  使用者期望的委托价格  </td>
   </tr>
   <tr>
     <td class="tg-c3ow">  StopPrice  </td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky">  用户期望的停损价格</td>
+    <td class="tg-0pky">  使用者期望的停损价格</td>
   </tr>
 </table>
 </center>
