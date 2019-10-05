@@ -1,6 +1,6 @@
 # 壹、交易
 ## 一、Request-Reply
-**cleint发送Request，等待Server回复Reply。client透过此联机登入、查询帐务。**
+**client发送Request，等待Server回复Reply。client透过此联机登入、查询帐务。**
 
 <br>
 
@@ -275,7 +275,7 @@
 ```
   注1: 代码一律采用TC代码。
 
-  注2: TimeInForce、OrderType、PositionEffect 列出所有可下单形式，请确认上手可支持下单形式，下单时代上正确的type。值接送上手Synthetic="0"，若要TCore洗价Synthetic="1"。
+  注2: TimeInForce、OrderType、PositionEffect 列出所有可下单形式，请确认上手可支持下单形式，下单时，代入正确的type。直接送上手Synthetic="0"，若要TCore洗价Synthetic="1"。
 
 <br>
 <center>
@@ -333,7 +333,7 @@
   <tr>
     <td class="tg-c3ow">TimeInForce</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br> &nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC | FAK  Immediate or<br>&nbsp;&nbsp;Cancel | Fill and Kill<br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盘前预约单<br>&nbsp;&nbsp;</td>
+    <td class="tg-0pky"><br> &nbsp;&nbsp;0 : None<br>&nbsp;&nbsp;1 : ROD  Day order <br>&nbsp;&nbsp;2 : IOC | FAK  Immediate or Cancel | Fill and Kill<br>&nbsp;&nbsp;3 : FOK   Fill or Kill <br>&nbsp;&nbsp;4 : GTC Good-Till-Cancel<br>&nbsp;&nbsp;5 : GTD Good-Till-Date<br>&nbsp;&nbsp;6 : OPG  盘前预约单<br>&nbsp;&nbsp;</td>
     
     
   </tr>
@@ -431,7 +431,7 @@
   <tr>
     <td class="tg-c3ow">GroupID</td>
    <td class="tg-c3ow">BSTR</td>
-    <td class="tg-0pky"><br>  GroupID or OCOID or OTOID or OTOCOID or  OTOSID<br></td>
+    <td class="tg-0pky">  GroupID or OCOID or OTOID or OTOCOID or  OTOSID<br></td>
 
   </tr>
   <tr>
@@ -440,7 +440,7 @@
     <td class="tg-0pky"><strong>追价</strong>  <br>&nbsp;&nbsp;格式为[每次增加价格|追价几次|每次追价几秒|最后下市价或删单或挂单(M or C or L)|PriceType]<br>&nbsp;&nbsp; <br><strong>限价追价</strong> <br>&nbsp;&nbsp;格式为[0|追价限制几跳|-11 (Chase<br>&nbsp;&nbsp;Trailing) or -12 (Chase if touch)|最后下市价或删单或挂单(M or C or<br>&nbsp;&nbsp;L)|PriceType]<br>&nbsp;&nbsp; <br>
   或是[1|追价几次|-11 (Chase Trailing)<br>&nbsp;&nbsp;or -12 (Chase if touch)|最后下市价或删单或挂单(M or C or L)|PriceType]<br>&nbsp;&nbsp;
   
-   &nbsp;&nbsp;<stong> a.若 每次增加价格 &lt; 1000 表示几跳Ticks<br>&nbsp;&nbsp; b.追价几秒=-11 (Chase Trailing)<br>&nbsp;&nbsp; c.追价几秒=-12 (Chase if touch) <br>&nbsp;&nbsp; d.Price Type=(LTP, BID, ASK) <br></strong>&nbsp;&nbsp;</td>
+   &nbsp;&nbsp;<stong>&nbsp;&nbsp; a.若 每次增加价格 &lt; 1000 表示几跳Ticks<br>&nbsp;&nbsp; b.追价几秒=-11 (Chase Trailing)<br>&nbsp;&nbsp; c.追价几秒=-12 (Chase if touch) <br>&nbsp;&nbsp; d.Price Type=(LTP, BID, ASK) <br></strong>&nbsp;&nbsp;</td>
     
     
   </tr>
